@@ -6,6 +6,13 @@ public class PlayerController : MonoBehaviour
 {
     private int horizontal = 0;
     private int vertical = 0;
+    private MoveBase movePlayer;
+
+    private void Start()
+    {
+        movePlayer = GetComponent<MoveBase>();
+    }
+
     void Update()
     {
         horizontal = (int)Input.GetAxisRaw("Horizontal");
@@ -16,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
         if(horizontal != 0 || vertical != 0)
         {
-
+            movePlayer.AttemptMove(horizontal, vertical);
         }
     }
 }

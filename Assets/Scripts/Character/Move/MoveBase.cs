@@ -10,7 +10,7 @@ public abstract class MoveBase : MonoBehaviour
 {
     public virtual void AttemptMove(int horizontal, int vertical)
     {
-
+        gameObject.transform.position += new Vector3(horizontal, vertical, 0);
     }
 
     public virtual void AttemptAttack()
