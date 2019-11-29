@@ -8,9 +8,9 @@ using UnityEngine;
 /// </summary>
 public abstract class MoveBase : MonoBehaviour
 {
-    public virtual void AttemptMove(int horizontal, int vertical)
+    public virtual void AttemptMove(Vector2 direction)
     {
-        gameObject.transform.position += new Vector3(horizontal, vertical, 0);
+        transform.Translate(direction);
     }
 
     public virtual void AttemptAttack()

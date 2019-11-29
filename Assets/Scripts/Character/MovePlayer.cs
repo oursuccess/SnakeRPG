@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MovePlayer : MoveBase
 {
-    public override void AttemptMove(int horizontal, int vertical) 
+    public override void AttemptMove(Vector2 direction) 
     {
 
-        base.AttemptMove(horizontal, vertical);
+        base.AttemptMove(direction);
     }
 }
