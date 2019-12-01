@@ -6,13 +6,10 @@ public class MovePlayer : MoveBase
 {
      private Vector2 direction = Vector2.zero;
 
-    IEnumerator Start()
+    protected override void Start()
     {
-        while(GameManager.Instance.GameOver == false)
-        {
-            Move();
-            yield return new WaitForSeconds(GameManager.Instance.MoveDelay);
-        }
+
+        base.Start();
     }
 
     void Update()
@@ -34,19 +31,9 @@ public class MovePlayer : MoveBase
             direction = Vector2.down;
         }
 
-    }
-
-    private void Move()
-    {
-        if(direction != Vector2.zero)
+        if (direction != Vector2.zero)
         {
-            AttemptMove(direction);
+            AttemptMove<EnemyBase>(direction);
         }
     }
-    public override void AttemptMove(Vector2 direction) 
-    {
-        base.AttemptMove(direction);
-    }
-    
-
 }
