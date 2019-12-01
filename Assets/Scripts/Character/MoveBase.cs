@@ -17,12 +17,17 @@ public abstract class MoveBase : MonoBehaviour
     //inverseMoveTime is not just time, it's distance or v in 1 sec;
     private float inverseMoveTime;
 
+    protected Attribute attribute;
+
     protected virtual void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
         rigidBody2D = GetComponent<Rigidbody2D>();
 
         inverseMoveTime = 1f / moveTime;
+
+        //应该是根据一个字符串从相关配置中读取
+        AttrSet();
     }
     protected virtual void AttemptMove<T>(Vector2 direction)
         where T : Component
@@ -94,6 +99,11 @@ public abstract class MoveBase : MonoBehaviour
     }
 
     public virtual void OnDead()
+    {
+
+    }
+
+    protected virtual void AttrSet()
     {
 
     }

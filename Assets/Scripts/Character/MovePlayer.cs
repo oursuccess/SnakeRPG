@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MovePlayer : MoveBase
 {
-     private Vector2 direction = Vector2.zero;
+    private Vector2 direction = Vector2.zero;
 
     protected override void Start()
     {
-
         base.Start();
+
     }
 
     void Update()
@@ -35,5 +35,17 @@ public class MovePlayer : MoveBase
         {
             AttemptMove<EnemyBase>(direction);
         }
+    }
+
+    protected override void AttemptMove<T>(Vector2 direction)
+    {
+        base.AttemptMove<T>(direction);
+    }
+
+    protected override void OnCantMove<T>(T component)
+    {
+        EnemyBase enemy = component as EnemyBase;
+
+        enemy.GetHurt(attribute.attack);
     }
 }
