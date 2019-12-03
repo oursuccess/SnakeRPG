@@ -2,55 +2,68 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Move，包含具体的移动、攻击判定、受击判定、
-/// 伤害结算、死亡
-/// </summary>
-public abstract class MoveBase : MonoBehaviour
+public abstract class Character : MonoBehaviour
 {
-    private BoxCollider2D boxCollider;
-    private Rigidbody2D rigidBody2D;
+    protected BoxCollider2D boxCollider;
+    protected Rigidbody2D rigidBody2D;
+
     [SerializeField]
     private LayerMask blockingLayer;
 
     public float moveTime = 1f;
-    public float moveDistance = 0.1f;
+    public float moveDistance = 1f;
     //inverseMoveTime is not just time, it's distance or v in 1 sec;
     private float inverseMoveTime;
+
+    protected float lastMovePassT;
 
     protected Attribute attribute;
 
     protected Coroutine moveRoutine;
 
+    protected Animator animator;
+
+    // Start is called before the first frame update
     protected virtual void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
         rigidBody2D = GetComponent<Rigidbody2D>();
 
         inverseMoveTime = 1f / moveTime;
+        lastMovePassT = 0f;
+
+        animator = GetComponent<Animator>();
 
         //应该是根据一个字符串从相关配置中读取
         AttrSet();
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    
     protected virtual void AttemptMove<T>(Vector2 direction)
         where T : Component
     {
         RaycastHit2D hit;
-        bool canMove = CanMove(direction, out hit);
+
+        bool isMoving = TryMove(direction, out hit);
 
         if (hit.transform == null) return;
 
         T hitComponent = hit.transform.GetComponent<T>();
 
-        if(!canMove && hitComponent != null)
+        if(!isMoving && hitComponent != null)
         {
-            OnCantMove(hitComponent);
+           OnCantMove(hitComponent);
         }
     }
 
     protected abstract void OnCantMove<T>(T component) where T : Component;
 
-    private bool CanMove(Vector2 direction, out RaycastHit2D hit)
+    private bool TryMove(Vector2 direction, out RaycastHit2D hit)
     {
         if(moveRoutine != null)
         {
@@ -66,6 +79,8 @@ public abstract class MoveBase : MonoBehaviour
 
         if(hit.transform == null)
         {
+            animator.SetFloat("xDir", direction.x);
+            animator.SetFloat("yDir", direction.y);
             moveRoutine = StartCoroutine(SmoothMovement(end));
             return true;
         }
@@ -90,22 +105,7 @@ public abstract class MoveBase : MonoBehaviour
 
     }
 
-    public virtual void AttemptGetAttack()
-    {
-
-    }
-
-    public virtual void OnDamage()
-    {
-
-    }
-
-    public virtual void OnGetHurt()
-    {
-
-    }
-
-    public virtual void OnDead()
+     public virtual void OnDead()
     {
 
     }
@@ -114,4 +114,5 @@ public abstract class MoveBase : MonoBehaviour
     {
 
     }
+
 }

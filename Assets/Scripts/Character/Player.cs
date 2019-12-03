@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovePlayer : MoveBase, IAttack
+public class Player : Character, IAttack
 {
     private Vector2 direction = Vector2.zero;
-    private Vector2 preDirection;
+    private Vector2 curDirection;
 
     protected override void Start()
     {
@@ -14,19 +14,19 @@ public class MovePlayer : MoveBase, IAttack
 
     void Update()
     {
-        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        if(direction == Vector2.zero)
+        if (Input.anyKeyDown)
         {
-            direction = preDirection;
-        }
-        else
-        {
-            preDirection = direction;
+            direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         }
 
-        if (direction != Vector2.zero)
+        lastMovePassT += Time.deltaTime;
+
+        if (direction != Vector2.zero && (direction != curDirection || lastMovePassT >= moveTime))
         {
-            AttemptMove<EnemyBase>(direction * moveDistance);
+            lastMovePassT -= moveTime;
+
+            curDirection = direction;
+            AttemptMove<Enemy>(direction * moveDistance);
         }
     }
 
@@ -37,11 +37,15 @@ public class MovePlayer : MoveBase, IAttack
 
     protected override void OnCantMove<T>(T component)
     {
-        EnemyBase enemy = component as EnemyBase;
+        Enemy enemy = component as Enemy;
 
         int realAttack;
         Attack(out realAttack);
         enemy.GetHurt(realAttack);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
     }
 
     public void Attack(out int realAttack)

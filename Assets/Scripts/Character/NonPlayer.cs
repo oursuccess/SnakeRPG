@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveNonPlayer : MoveBase
+public class NonPlayer : Character
 {
     protected override void Start()
     {
@@ -11,7 +11,7 @@ public class MoveNonPlayer : MoveBase
 
     public void Move(Vector2 targetPosition)
     {
-        AttemptMove<EnemyBase>(targetPosition);
+        AttemptMove<Enemy>(targetPosition);
     }
 
     protected override void AttemptMove<T>(Vector2 direction)
@@ -21,7 +21,7 @@ public class MoveNonPlayer : MoveBase
 
     protected override void OnCantMove<T>(T component)
     {
-        EnemyBase enemy = component as EnemyBase;
+        Enemy enemy = component as Enemy;
 
         enemy.GetHurt(attribute.attack);
     }

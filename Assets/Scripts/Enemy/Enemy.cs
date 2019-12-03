@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBase : MonoBehaviour
+public abstract class Enemy : MonoBehaviour
 {
-    void Start()
+    protected virtual void Start()
     {
 
     }
