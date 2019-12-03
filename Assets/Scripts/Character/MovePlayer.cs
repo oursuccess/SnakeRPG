@@ -5,6 +5,7 @@ using UnityEngine;
 public class MovePlayer : MoveBase, IAttack
 {
     private Vector2 direction = Vector2.zero;
+    private Vector2 preDirection;
 
     protected override void Start()
     {
@@ -13,26 +14,19 @@ public class MovePlayer : MoveBase, IAttack
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+        direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        if(direction == Vector2.zero)
         {
-            direction = Vector2.left;
+            direction = preDirection;
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+        else
         {
-            direction = Vector2.right;
-        }
-        else if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
-        {
-            direction = Vector2.up;
-        }
-        else if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
-        {
-            direction = Vector2.down;
+            preDirection = direction;
         }
 
         if (direction != Vector2.zero)
         {
-            AttemptMove<EnemyBase>(direction);
+            AttemptMove<EnemyBase>(direction * moveDistance);
         }
     }
 

@@ -12,12 +12,15 @@ public abstract class MoveBase : MonoBehaviour
     private Rigidbody2D rigidBody2D;
     [SerializeField]
     private LayerMask blockingLayer;
-    [SerializeField]
-    private float moveTime = 1f;
+
+    public float moveTime = 1f;
+    public float moveDistance = 0.1f;
     //inverseMoveTime is not just time, it's distance or v in 1 sec;
     private float inverseMoveTime;
 
     protected Attribute attribute;
+
+    protected Coroutine moveRoutine;
 
     protected virtual void Start()
     {
@@ -49,6 +52,10 @@ public abstract class MoveBase : MonoBehaviour
 
     private bool CanMove(Vector2 direction, out RaycastHit2D hit)
     {
+        if(moveRoutine != null)
+        {
+            StopCoroutine(moveRoutine);
+        }
 
         Vector2 start = transform.position;
         Vector2 end = start + direction;
@@ -59,7 +66,7 @@ public abstract class MoveBase : MonoBehaviour
 
         if(hit.transform == null)
         {
-            StartCoroutine(SmoothMovement(end));
+            moveRoutine = StartCoroutine(SmoothMovement(end));
             return true;
         }
         return false;
