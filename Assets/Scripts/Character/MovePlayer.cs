@@ -9,7 +9,6 @@ public class MovePlayer : MoveBase, IAttack
     protected override void Start()
     {
         base.Start();
-
     }
 
     void Update()

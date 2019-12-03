@@ -13,7 +13,7 @@ public abstract class MoveBase : MonoBehaviour
     [SerializeField]
     private LayerMask blockingLayer;
     [SerializeField]
-    private float moveTime = 0.1f;
+    private float moveTime = 1f;
     //inverseMoveTime is not just time, it's distance or v in 1 sec;
     private float inverseMoveTime;
 
