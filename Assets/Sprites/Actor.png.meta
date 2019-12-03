@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: 3ed88b5b22e761c42891b7d52cad5722
+guid: ebf17d360d041e54db98391dfe9f5c42
 TextureImporter:
   fileIDToRecycleName:
-    21300000: '!Chest_0'
-    21300002: '!Chest_1'
-    21300004: '!Chest_2'
-    21300006: '!Chest_3'
-    21300008: '!Chest_4'
-    21300010: '!Chest_5'
-    21300012: '!Chest_6'
-    21300014: '!Chest_7'
-    21300016: '!Chest_8'
-    21300018: '!Chest_9'
-    21300020: '!Chest_10'
-    21300022: '!Chest_11'
-    21300024: '!Chest_12'
-    21300026: '!Chest_13'
-    21300028: '!Chest_14'
-    21300030: '!Chest_15'
-    21300032: '!Chest_16'
-    21300034: '!Chest_17'
-    21300036: '!Chest_18'
-    21300038: '!Chest_19'
-    21300040: '!Chest_20'
-    21300042: '!Chest_21'
-    21300044: '!Chest_22'
-    21300046: '!Chest_23'
-    21300048: '!Chest_24'
-    21300050: '!Chest_25'
-    21300052: '!Chest_26'
-    21300054: '!Chest_27'
-    21300056: '!Chest_28'
-    21300058: '!Chest_29'
-    21300060: '!Chest_30'
-    21300062: '!Chest_31'
-    21300064: '!Chest_32'
-    21300066: '!Chest_33'
-    21300068: '!Chest_34'
-    21300070: '!Chest_35'
-    21300072: '!Chest_36'
-    21300074: '!Chest_37'
-    21300076: '!Chest_38'
-    21300078: '!Chest_39'
-    21300080: '!Chest_40'
-    21300082: '!Chest_41'
-    21300084: '!Chest_42'
-    21300086: '!Chest_43'
-    21300088: '!Chest_44'
-    21300090: '!Chest_45'
-    21300092: '!Chest_46'
-    21300094: '!Chest_47'
-    21300096: '!Chest_48'
-    21300098: '!Chest_49'
-    21300100: '!Chest_50'
-    21300102: '!Chest_51'
-    21300104: '!Chest_52'
-    21300106: '!Chest_53'
-    21300108: '!Chest_54'
-    21300110: '!Chest_55'
-    21300112: '!Chest_56'
-    21300114: '!Chest_57'
-    21300116: '!Chest_58'
-    21300118: '!Chest_59'
-    21300120: '!Chest_60'
-    21300122: '!Chest_61'
-    21300124: '!Chest_62'
-    21300126: '!Chest_63'
-    21300128: '!Chest_64'
-    21300130: '!Chest_65'
-    21300132: '!Chest_66'
-    21300134: '!Chest_67'
-    21300136: '!Chest_68'
-    21300138: '!Chest_69'
-    21300140: '!Chest_70'
-    21300142: '!Chest_71'
-    21300144: '!Chest_72'
-    21300146: '!Chest_73'
-    21300148: '!Chest_74'
-    21300150: '!Chest_75'
-    21300152: '!Chest_76'
-    21300154: '!Chest_77'
-    21300156: '!Chest_78'
-    21300158: '!Chest_79'
-    21300160: '!Chest_80'
-    21300162: '!Chest_81'
-    21300164: '!Chest_82'
-    21300166: '!Chest_83'
-    21300168: '!Chest_84'
-    21300170: '!Chest_85'
-    21300172: '!Chest_86'
-    21300174: '!Chest_87'
-    21300176: '!Chest_88'
-    21300178: '!Chest_89'
-    21300180: '!Chest_90'
-    21300182: '!Chest_91'
-    21300184: '!Chest_92'
-    21300186: '!Chest_93'
-    21300188: '!Chest_94'
-    21300190: '!Chest_95'
+    21300000: Actor_0
+    21300002: Actor_1
+    21300004: Actor_2
+    21300006: Actor_3
+    21300008: Actor_4
+    21300010: Actor_5
+    21300012: Actor_6
+    21300014: Actor_7
+    21300016: Actor_8
+    21300018: Actor_9
+    21300020: Actor_10
+    21300022: Actor_11
+    21300024: Actor_12
+    21300026: Actor_13
+    21300028: Actor_14
+    21300030: Actor_15
+    21300032: Actor_16
+    21300034: Actor_17
+    21300036: Actor_18
+    21300038: Actor_19
+    21300040: Actor_20
+    21300042: Actor_21
+    21300044: Actor_22
+    21300046: Actor_23
+    21300048: Actor_24
+    21300050: Actor_25
+    21300052: Actor_26
+    21300054: Actor_27
+    21300056: Actor_28
+    21300058: Actor_29
+    21300060: Actor_30
+    21300062: Actor_31
+    21300064: Actor_32
+    21300066: Actor_33
+    21300068: Actor_34
+    21300070: Actor_35
+    21300072: Actor_36
+    21300074: Actor_37
+    21300076: Actor_38
+    21300078: Actor_39
+    21300080: Actor_40
+    21300082: Actor_41
+    21300084: Actor_42
+    21300086: Actor_43
+    21300088: Actor_44
+    21300090: Actor_45
+    21300092: Actor_46
+    21300094: Actor_47
+    21300096: Actor_48
+    21300098: Actor_49
+    21300100: Actor_50
+    21300102: Actor_51
+    21300104: Actor_52
+    21300106: Actor_53
+    21300108: Actor_54
+    21300110: Actor_55
+    21300112: Actor_56
+    21300114: Actor_57
+    21300116: Actor_58
+    21300118: Actor_59
+    21300120: Actor_60
+    21300122: Actor_61
+    21300124: Actor_62
+    21300126: Actor_63
+    21300128: Actor_64
+    21300130: Actor_65
+    21300132: Actor_66
+    21300134: Actor_67
+    21300136: Actor_68
+    21300138: Actor_69
+    21300140: Actor_70
+    21300142: Actor_71
+    21300144: Actor_72
+    21300146: Actor_73
+    21300148: Actor_74
+    21300150: Actor_75
+    21300152: Actor_76
+    21300154: Actor_77
+    21300156: Actor_78
+    21300158: Actor_79
+    21300160: Actor_80
+    21300162: Actor_81
+    21300164: Actor_82
+    21300166: Actor_83
+    21300168: Actor_84
+    21300170: Actor_85
+    21300172: Actor_86
+    21300174: Actor_87
+    21300176: Actor_88
+    21300178: Actor_89
+    21300180: Actor_90
+    21300182: Actor_91
+    21300184: Actor_92
+    21300186: Actor_93
+    21300188: Actor_94
+    21300190: Actor_95
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -180,7 +180,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '!Chest_0'
+      name: Actor_0
       rect:
         serializedVersion: 2
         x: 0
@@ -194,13 +194,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9584bdcc514da4883e4b7cd573f0f5
+      spriteID: f708ad8ca2652c14eba48991aca49c85
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_1'
+      name: Actor_1
       rect:
         serializedVersion: 2
         x: 48
@@ -214,13 +214,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f428112a446384a4b8da9ec09eec0799
+      spriteID: 47fbb9f0fdf504741b9e81a8409adb64
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_2'
+      name: Actor_2
       rect:
         serializedVersion: 2
         x: 96
@@ -234,13 +234,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd04f3349e9927b4d9323360548087cd
+      spriteID: a6c3135e95db000429fb3053ab8e2249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_3'
+      name: Actor_3
       rect:
         serializedVersion: 2
         x: 144
@@ -254,13 +254,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f213fed47b41b1d47bf45682986e4019
+      spriteID: 1d4818409f83ac647a4eb77c129d66a7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_4'
+      name: Actor_4
       rect:
         serializedVersion: 2
         x: 192
@@ -274,13 +274,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ef1dbd0370c9a42af93bced4bdac86
+      spriteID: af601f36a79c7de4fbda1c6953b5572a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_5'
+      name: Actor_5
       rect:
         serializedVersion: 2
         x: 240
@@ -294,13 +294,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a4665ffe8287c418d6da02b6b7d3f2
+      spriteID: a21c8f9f05f3e344bb87116818a62e03
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_6'
+      name: Actor_6
       rect:
         serializedVersion: 2
         x: 288
@@ -314,13 +314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 383be02880f7b0d4db8564f76760d931
+      spriteID: 87fee66f7b17f5648b86c4d8937a2769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_7'
+      name: Actor_7
       rect:
         serializedVersion: 2
         x: 336
@@ -334,13 +334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8f30a5161f4efd43907f1964aa3d340
+      spriteID: 0f793f3d525e8134393d447aee271ad1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_8'
+      name: Actor_8
       rect:
         serializedVersion: 2
         x: 384
@@ -354,13 +354,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19274653a98a1ef438dbbfbfca4454bf
+      spriteID: d00e8e3914080094291df73c45bb61fa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_9'
+      name: Actor_9
       rect:
         serializedVersion: 2
         x: 432
@@ -374,13 +374,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd72a7451ac1fca48b5f85dd40e213cf
+      spriteID: 6372e78a7c3ce1844ab29432ec827e8f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_10'
+      name: Actor_10
       rect:
         serializedVersion: 2
         x: 480
@@ -394,13 +394,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d0c45cbf356794d983e44d0a2f4215
+      spriteID: bc466e6a49168114bbd203c3ab7d80fd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_11'
+      name: Actor_11
       rect:
         serializedVersion: 2
         x: 528
@@ -414,13 +414,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e43f874859953eb4a8e1d028f0a1a52f
+      spriteID: aa3925dc00ea3324fa711c5aec61fca0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_12'
+      name: Actor_12
       rect:
         serializedVersion: 2
         x: 0
@@ -434,13 +434,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 222952f3a6929e24a939e6466857bf9f
+      spriteID: ee3a9e274851b1348857344cc920755a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_13'
+      name: Actor_13
       rect:
         serializedVersion: 2
         x: 48
@@ -454,13 +454,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2337abbd28bfa9246b419deb238d142f
+      spriteID: 616fb6ab5ad5c054da8102d39b9dafd6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_14'
+      name: Actor_14
       rect:
         serializedVersion: 2
         x: 96
@@ -474,13 +474,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b699288178749c45ac1ce545f7c3300
+      spriteID: 7e30511c11565cc429febf2c3e70e86c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_15'
+      name: Actor_15
       rect:
         serializedVersion: 2
         x: 144
@@ -494,13 +494,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3748589492c1c74d9200833c9d52c8b
+      spriteID: fa2d0bb84c0a0ab489f004a893de47e7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_16'
+      name: Actor_16
       rect:
         serializedVersion: 2
         x: 192
@@ -514,13 +514,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dfe58ec9736b9d4fbeae38eff48cd37
+      spriteID: 23824da5c240d2040aa40650f5444f26
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_17'
+      name: Actor_17
       rect:
         serializedVersion: 2
         x: 240
@@ -534,13 +534,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 705850839b8cd454d9380b5997b47738
+      spriteID: aa0d06476756aa44082acc61e668e586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_18'
+      name: Actor_18
       rect:
         serializedVersion: 2
         x: 288
@@ -554,13 +554,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b005760e07882b5409ec1207d7781722
+      spriteID: 823b74b7bca36984b9bab674c2605313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_19'
+      name: Actor_19
       rect:
         serializedVersion: 2
         x: 336
@@ -574,13 +574,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a3b9fa51014f245995fe140f2fa566
+      spriteID: f0b677a70de93fd409446a2ff39edc41
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_20'
+      name: Actor_20
       rect:
         serializedVersion: 2
         x: 384
@@ -594,13 +594,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaad81ae9c58fdf4597fd627370c16c8
+      spriteID: a615811daae3cd94e9c5842a3c5cff29
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_21'
+      name: Actor_21
       rect:
         serializedVersion: 2
         x: 432
@@ -614,13 +614,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a609d97272ec52647b63de9cceb05ceb
+      spriteID: cecc06997ac30bc40aa33d728e1cd884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_22'
+      name: Actor_22
       rect:
         serializedVersion: 2
         x: 480
@@ -634,13 +634,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eeef10f8c7eeba4689ce77826c931aa
+      spriteID: 93ba436f84f696143ba9e27a8b2d73e6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_23'
+      name: Actor_23
       rect:
         serializedVersion: 2
         x: 528
@@ -654,13 +654,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6aeaa5c239b03f4889219420a1f9ad6
+      spriteID: b73f313af83012549b512b4bf6eb7747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_24'
+      name: Actor_24
       rect:
         serializedVersion: 2
         x: 0
@@ -674,13 +674,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a154d88463489646840c35a7ae54125
+      spriteID: 932ddf51737f5e24ca2f0a91a288c6f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_25'
+      name: Actor_25
       rect:
         serializedVersion: 2
         x: 48
@@ -694,13 +694,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 133b2eaf86d3a2442b163bf0f0539983
+      spriteID: f9a75f77b758c2e499bac17e456d70d1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_26'
+      name: Actor_26
       rect:
         serializedVersion: 2
         x: 96
@@ -714,13 +714,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6250662787aa77e49a9c64d850688e25
+      spriteID: 05e7beb03afce464c8d3cd16e788b178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_27'
+      name: Actor_27
       rect:
         serializedVersion: 2
         x: 144
@@ -734,13 +734,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 788239e3fd1167440a888c13e5208907
+      spriteID: 92fad5714fb01364196c0501fb0668ab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_28'
+      name: Actor_28
       rect:
         serializedVersion: 2
         x: 192
@@ -754,13 +754,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd44f80d9dcd5504c8847fbae02d894c
+      spriteID: 2d5fc5121006bb84ead3439ab97a0888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_29'
+      name: Actor_29
       rect:
         serializedVersion: 2
         x: 240
@@ -774,13 +774,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c89749d2906274591f9af3b8bb82ec
+      spriteID: 3bbc5a96e1aedf043b1c5de9cdf69522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_30'
+      name: Actor_30
       rect:
         serializedVersion: 2
         x: 288
@@ -794,13 +794,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 963de3110c672bb469141adcb3e49590
+      spriteID: 89ccda81629a007489b39dd3ab290892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_31'
+      name: Actor_31
       rect:
         serializedVersion: 2
         x: 336
@@ -814,13 +814,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ac6062e48315d4f9cc58f73e565c78
+      spriteID: 4882a6f0b5328224cbd2013248e4aec0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_32'
+      name: Actor_32
       rect:
         serializedVersion: 2
         x: 384
@@ -834,13 +834,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f45693604a16aeb4c93ac15ab7e97025
+      spriteID: bc02f4abffefa8b4abb94d4b82dc3219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_33'
+      name: Actor_33
       rect:
         serializedVersion: 2
         x: 432
@@ -854,13 +854,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bb350d0276e9545977b727627e4657
+      spriteID: 0e772b0e30ff978478279c89ea3a96ec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_34'
+      name: Actor_34
       rect:
         serializedVersion: 2
         x: 480
@@ -874,13 +874,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a323fec717df8409b9d64117004076
+      spriteID: bf97132c133c5c548a93f6e3ca30f0be
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_35'
+      name: Actor_35
       rect:
         serializedVersion: 2
         x: 528
@@ -894,13 +894,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f5cd336c072e948a8b860089bf9136
+      spriteID: 532357f7bd322e640882eb6b210d16cf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_36'
+      name: Actor_36
       rect:
         serializedVersion: 2
         x: 0
@@ -914,13 +914,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98122b610b0c2374a87f464c172ace38
+      spriteID: a7c5887d113017e439a6a31dac7970a0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_37'
+      name: Actor_37
       rect:
         serializedVersion: 2
         x: 48
@@ -934,13 +934,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64941e8ba3f161b449fa3c965b800cf9
+      spriteID: f8e9c5f9cc7b0c74ab0f07d241e36ecf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_38'
+      name: Actor_38
       rect:
         serializedVersion: 2
         x: 96
@@ -954,13 +954,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e47e36bd7adabd4eb6a35fdbf4a7218
+      spriteID: 99b1a75b364ce9247b8bed95de223137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_39'
+      name: Actor_39
       rect:
         serializedVersion: 2
         x: 144
@@ -974,13 +974,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a50f1759b938f48885bfbe84e8b18a
+      spriteID: fefc01c842b98c148b526129b166531d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_40'
+      name: Actor_40
       rect:
         serializedVersion: 2
         x: 192
@@ -994,13 +994,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f3f86eb33139d4cbe295be541ac835
+      spriteID: c50c65400fd20e64489498b5ec685fdc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_41'
+      name: Actor_41
       rect:
         serializedVersion: 2
         x: 240
@@ -1014,13 +1014,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c76699aa7ad8d6428fc4b15b9d70be9
+      spriteID: 158ab5ec2d51f164f873ccb1df27ad9f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_42'
+      name: Actor_42
       rect:
         serializedVersion: 2
         x: 288
@@ -1034,13 +1034,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29b3b68075c50204abbe1c88b2a89d6c
+      spriteID: 8983bb767285a624486821ced92a54b1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_43'
+      name: Actor_43
       rect:
         serializedVersion: 2
         x: 336
@@ -1054,13 +1054,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd368ed7126d91145a11deea806f2b19
+      spriteID: 0a1a4558ea691694ca7845b674b8f5bc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_44'
+      name: Actor_44
       rect:
         serializedVersion: 2
         x: 384
@@ -1074,13 +1074,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15dd8581a9630bf4b8eb58236298a78d
+      spriteID: cac45c110cb92ff459fb0aa3adddf81c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_45'
+      name: Actor_45
       rect:
         serializedVersion: 2
         x: 432
@@ -1094,13 +1094,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c54719aa79354b54cbcfd11f87285d44
+      spriteID: 8a6eacb534d554542be94775891a8871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_46'
+      name: Actor_46
       rect:
         serializedVersion: 2
         x: 480
@@ -1114,13 +1114,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1448e78f02a2354ab51077dda43969f
+      spriteID: 036813b79fc9acc4ab090c7c56ccc207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_47'
+      name: Actor_47
       rect:
         serializedVersion: 2
         x: 528
@@ -1134,13 +1134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13417af6024fba743b75f337979794e4
+      spriteID: 20e5ee5991927604c9fe1968c6e3cd41
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_48'
+      name: Actor_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1154,13 +1154,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 391330093f6997b4991a07ab28d0fc8f
+      spriteID: c5fe652861f64b549a2809b3f0a2198d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_49'
+      name: Actor_49
       rect:
         serializedVersion: 2
         x: 48
@@ -1174,13 +1174,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e2f11025709f946877d4bd4a16fbd8
+      spriteID: f32bad4f7d6c6bc48aba3ca8069378ac
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_50'
+      name: Actor_50
       rect:
         serializedVersion: 2
         x: 96
@@ -1194,13 +1194,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d02e71e2f7f29d45ba5ec2ca7bb4c99
+      spriteID: f4204e5b405aecc49b030fb4853d996c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_51'
+      name: Actor_51
       rect:
         serializedVersion: 2
         x: 144
@@ -1214,13 +1214,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63499123188628247a6cd934e66f9b67
+      spriteID: 34814097084b4b645b7c3d31d355da94
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_52'
+      name: Actor_52
       rect:
         serializedVersion: 2
         x: 192
@@ -1234,13 +1234,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ca603013b4e0f4c901cfd520ac9889
+      spriteID: 77a55747feb292448884c83b7ebbded1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_53'
+      name: Actor_53
       rect:
         serializedVersion: 2
         x: 240
@@ -1254,13 +1254,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0a087c301073b469100fd192a6021b
+      spriteID: d9b7533b6da7704438e375f7da630ba5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_54'
+      name: Actor_54
       rect:
         serializedVersion: 2
         x: 288
@@ -1274,13 +1274,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70685bd5b02a8b84ca3affc6ea2bcbf4
+      spriteID: ba80083b9cf61a340ae54b9b8f580a60
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_55'
+      name: Actor_55
       rect:
         serializedVersion: 2
         x: 336
@@ -1294,13 +1294,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97899054d57f04745b06198d74c50699
+      spriteID: dc0cf096a9946fc4bb5fd0f0ea7cad5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_56'
+      name: Actor_56
       rect:
         serializedVersion: 2
         x: 384
@@ -1314,13 +1314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e339d9098e0fe8747b2a9f19e3e74d4b
+      spriteID: 14fa24b6f742e0c4eaf1c8495661e8f2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_57'
+      name: Actor_57
       rect:
         serializedVersion: 2
         x: 432
@@ -1334,13 +1334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c512866a768ca8e43aedfa2235a1208b
+      spriteID: 29d1bd04e73cf364a9a911651849f46e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_58'
+      name: Actor_58
       rect:
         serializedVersion: 2
         x: 480
@@ -1354,13 +1354,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3350119fc9ea2214fb47a4dd4073d18a
+      spriteID: 2c9d41626cfa9944db2e738238b2d4dc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_59'
+      name: Actor_59
       rect:
         serializedVersion: 2
         x: 528
@@ -1374,13 +1374,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56ce525fc81972a4a96492c37a18e5c1
+      spriteID: b168162507c28e7409ef8f261cafc966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_60'
+      name: Actor_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1394,13 +1394,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a4367a66e7e66b4db836525d5fbda78
+      spriteID: 845490b031f183b48ae9b18c1535e28a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_61'
+      name: Actor_61
       rect:
         serializedVersion: 2
         x: 48
@@ -1414,13 +1414,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e914e60dcf8c764f8551adef25301b5
+      spriteID: ffef714ae5cf06e4dbc21e9e9a22f20e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_62'
+      name: Actor_62
       rect:
         serializedVersion: 2
         x: 96
@@ -1434,13 +1434,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94741479be3699a4b8c8d87e2e68d24b
+      spriteID: 7e7ca5f64d0bcc544b8e0b017e27c667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_63'
+      name: Actor_63
       rect:
         serializedVersion: 2
         x: 144
@@ -1454,13 +1454,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8503bcca61c701a40bb1bec77cd032c1
+      spriteID: f9d429a76d8a50141be1ee72d9f57ac1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_64'
+      name: Actor_64
       rect:
         serializedVersion: 2
         x: 192
@@ -1474,13 +1474,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3d9d6b1c1691f43981e02e06862adc
+      spriteID: d6ad221e94a6ec5429246483bcb863cc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_65'
+      name: Actor_65
       rect:
         serializedVersion: 2
         x: 240
@@ -1494,13 +1494,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc38de8dc040a7541a11c970fe6cd2f2
+      spriteID: 366c066f24b581040b552f1768e60965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_66'
+      name: Actor_66
       rect:
         serializedVersion: 2
         x: 288
@@ -1514,13 +1514,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e5132405da5fe5418569921024a228b
+      spriteID: b4d8c471fb3ddfd49b15b26f768e7683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_67'
+      name: Actor_67
       rect:
         serializedVersion: 2
         x: 336
@@ -1534,13 +1534,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1df39ce623f6c4fb82c21b4427c559
+      spriteID: 6a8df3a832dd4c645924f5229d23bc03
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_68'
+      name: Actor_68
       rect:
         serializedVersion: 2
         x: 384
@@ -1554,13 +1554,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e598c6103dbc8ad4789748a5742b460a
+      spriteID: 8d6b1feefee9cc34db4331bb00d5d287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_69'
+      name: Actor_69
       rect:
         serializedVersion: 2
         x: 432
@@ -1574,13 +1574,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7074703888b4f7b429ff04877bae60ce
+      spriteID: 6055d7c3b3e0df84d83c57c51ae19509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_70'
+      name: Actor_70
       rect:
         serializedVersion: 2
         x: 480
@@ -1594,13 +1594,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b0d284bbde62f4cb905af520440fc6
+      spriteID: ad38a635f8c089c4590cf576ed8ef511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_71'
+      name: Actor_71
       rect:
         serializedVersion: 2
         x: 528
@@ -1614,13 +1614,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6be7fa4cf34b24a8e238e3797c0dd3
+      spriteID: 69e9055d883a7794683021a5392eb1ae
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_72'
+      name: Actor_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1634,13 +1634,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46609baa19ef11943b396e0f80535724
+      spriteID: 9056ec5a74158d34d90fe94892cc4497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_73'
+      name: Actor_73
       rect:
         serializedVersion: 2
         x: 48
@@ -1654,13 +1654,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926fc9091350101408747d73dadb761d
+      spriteID: c54cb5f09b075de4880e457db90f991a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_74'
+      name: Actor_74
       rect:
         serializedVersion: 2
         x: 96
@@ -1674,13 +1674,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10355406fbc4d6c4c9e01ddab5edb97e
+      spriteID: 6bcc066918b973744bd4651dba66cca9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_75'
+      name: Actor_75
       rect:
         serializedVersion: 2
         x: 144
@@ -1694,13 +1694,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ecfa8c3157038a499022cd8a2467cc7
+      spriteID: f638807adc8f7ed4ba09b5741151519e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_76'
+      name: Actor_76
       rect:
         serializedVersion: 2
         x: 192
@@ -1714,13 +1714,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e69601e8bb8e242bc25db2ce767764
+      spriteID: 065475f7d17d82a4dbb6f8685f6cf5c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_77'
+      name: Actor_77
       rect:
         serializedVersion: 2
         x: 240
@@ -1734,13 +1734,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d416878abfa72478954843e47c243d
+      spriteID: 4414e139d48f7b9408d16bcdfb94aa3a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_78'
+      name: Actor_78
       rect:
         serializedVersion: 2
         x: 288
@@ -1754,13 +1754,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2f81bc65d6a7e4f84451ab6f8fc37a
+      spriteID: ad27ca8109a0ad644bcaa9071bd94d25
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_79'
+      name: Actor_79
       rect:
         serializedVersion: 2
         x: 336
@@ -1774,13 +1774,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67efed2da478208448d9ead18069e2f8
+      spriteID: 296473a233363774fbad2f5c6be4bac8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_80'
+      name: Actor_80
       rect:
         serializedVersion: 2
         x: 384
@@ -1794,13 +1794,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b0b355afbdfd244bfa9036f1c7a0d3
+      spriteID: ea5e56add72b7bb46ab7191b27d43a00
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_81'
+      name: Actor_81
       rect:
         serializedVersion: 2
         x: 432
@@ -1814,13 +1814,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb480e2fc3a4c04a92c5a3441defd09
+      spriteID: c91e5c3d9ff1cc5429ec8a3603090d48
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_82'
+      name: Actor_82
       rect:
         serializedVersion: 2
         x: 480
@@ -1834,13 +1834,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91353487067a374b977b35256f1e96f
+      spriteID: 8569fe055bbd9d3499689b66dd696929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_83'
+      name: Actor_83
       rect:
         serializedVersion: 2
         x: 528
@@ -1854,13 +1854,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: addf79151df72d943ac2b3e5b89be98d
+      spriteID: ac053662eb836c542a570c6be4cd19ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_84'
+      name: Actor_84
       rect:
         serializedVersion: 2
         x: 0
@@ -1874,13 +1874,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9846e9dfec35c954d9b4b70e02402560
+      spriteID: 387a5030d037cc14eb38c1dabe2bbfd7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_85'
+      name: Actor_85
       rect:
         serializedVersion: 2
         x: 48
@@ -1894,13 +1894,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3c4ec8fbdb2f44f8a4ac30ff36635c
+      spriteID: b3386b3f734fedd4cbd79cf881db1681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_86'
+      name: Actor_86
       rect:
         serializedVersion: 2
         x: 96
@@ -1914,13 +1914,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae883c00d75a7be44bfd9e72763fee11
+      spriteID: 552c32ed8e0df9e49921ba9c54ebef61
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_87'
+      name: Actor_87
       rect:
         serializedVersion: 2
         x: 144
@@ -1934,13 +1934,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ba61ff3b6e32fc4eabef264e16c3506
+      spriteID: 6f52defb7bb0a2b4eaf3d69821836067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_88'
+      name: Actor_88
       rect:
         serializedVersion: 2
         x: 192
@@ -1954,13 +1954,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dadfc22cb59f4874b9a64c234587abdd
+      spriteID: 79aefe83711d610418b77aab3ab44e47
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_89'
+      name: Actor_89
       rect:
         serializedVersion: 2
         x: 240
@@ -1974,13 +1974,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf2fdd6c1ccf224a9cd518514f3d825
+      spriteID: 302242aa351532d47879cfb40fbd68ba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_90'
+      name: Actor_90
       rect:
         serializedVersion: 2
         x: 288
@@ -1994,13 +1994,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa2a1fd47484874e9bbbe53dabcaf2c
+      spriteID: 3bcad528d83689a47b305cc4c6f4d0e0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_91'
+      name: Actor_91
       rect:
         serializedVersion: 2
         x: 336
@@ -2014,13 +2014,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a30406e7b8e7474fbabbf680afbed83
+      spriteID: 6dade9f1bcb28b3479f1c24a922f9645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_92'
+      name: Actor_92
       rect:
         serializedVersion: 2
         x: 384
@@ -2034,13 +2034,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14f9a2a0ac408545930080639bc7ca2
+      spriteID: 3f1a386482e224b4cbb929be30188521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_93'
+      name: Actor_93
       rect:
         serializedVersion: 2
         x: 432
@@ -2054,13 +2054,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199977afa8acf4c42b49685bb812ae90
+      spriteID: d6e03942c43c640479282e787a255b1c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_94'
+      name: Actor_94
       rect:
         serializedVersion: 2
         x: 480
@@ -2074,13 +2074,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f52d67f3925475148abfae79c92e2bb0
+      spriteID: 4aa47b150a853d04f828df80f525a420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_95'
+      name: Actor_95
       rect:
         serializedVersion: 2
         x: 528
@@ -2094,7 +2094,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35613f5262976494db7f532fa3306621
+      spriteID: af5a4272597681b4ea2a46b63b1de3ce
       vertices: []
       indices: 
       edges: []
@@ -2102,7 +2102,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a511f993edd085b499b809933f249747
+    spriteID: 56fa316cc98f7ca4da86ef3b1509ab1f
     vertices: []
     indices: 
     edges: []

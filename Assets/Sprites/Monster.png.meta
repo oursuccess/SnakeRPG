@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: 3ed88b5b22e761c42891b7d52cad5722
+guid: b0f77c277bf34834ab61d81c3865131f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: '!Chest_0'
-    21300002: '!Chest_1'
-    21300004: '!Chest_2'
-    21300006: '!Chest_3'
-    21300008: '!Chest_4'
-    21300010: '!Chest_5'
-    21300012: '!Chest_6'
-    21300014: '!Chest_7'
-    21300016: '!Chest_8'
-    21300018: '!Chest_9'
-    21300020: '!Chest_10'
-    21300022: '!Chest_11'
-    21300024: '!Chest_12'
-    21300026: '!Chest_13'
-    21300028: '!Chest_14'
-    21300030: '!Chest_15'
-    21300032: '!Chest_16'
-    21300034: '!Chest_17'
-    21300036: '!Chest_18'
-    21300038: '!Chest_19'
-    21300040: '!Chest_20'
-    21300042: '!Chest_21'
-    21300044: '!Chest_22'
-    21300046: '!Chest_23'
-    21300048: '!Chest_24'
-    21300050: '!Chest_25'
-    21300052: '!Chest_26'
-    21300054: '!Chest_27'
-    21300056: '!Chest_28'
-    21300058: '!Chest_29'
-    21300060: '!Chest_30'
-    21300062: '!Chest_31'
-    21300064: '!Chest_32'
-    21300066: '!Chest_33'
-    21300068: '!Chest_34'
-    21300070: '!Chest_35'
-    21300072: '!Chest_36'
-    21300074: '!Chest_37'
-    21300076: '!Chest_38'
-    21300078: '!Chest_39'
-    21300080: '!Chest_40'
-    21300082: '!Chest_41'
-    21300084: '!Chest_42'
-    21300086: '!Chest_43'
-    21300088: '!Chest_44'
-    21300090: '!Chest_45'
-    21300092: '!Chest_46'
-    21300094: '!Chest_47'
-    21300096: '!Chest_48'
-    21300098: '!Chest_49'
-    21300100: '!Chest_50'
-    21300102: '!Chest_51'
-    21300104: '!Chest_52'
-    21300106: '!Chest_53'
-    21300108: '!Chest_54'
-    21300110: '!Chest_55'
-    21300112: '!Chest_56'
-    21300114: '!Chest_57'
-    21300116: '!Chest_58'
-    21300118: '!Chest_59'
-    21300120: '!Chest_60'
-    21300122: '!Chest_61'
-    21300124: '!Chest_62'
-    21300126: '!Chest_63'
-    21300128: '!Chest_64'
-    21300130: '!Chest_65'
-    21300132: '!Chest_66'
-    21300134: '!Chest_67'
-    21300136: '!Chest_68'
-    21300138: '!Chest_69'
-    21300140: '!Chest_70'
-    21300142: '!Chest_71'
-    21300144: '!Chest_72'
-    21300146: '!Chest_73'
-    21300148: '!Chest_74'
-    21300150: '!Chest_75'
-    21300152: '!Chest_76'
-    21300154: '!Chest_77'
-    21300156: '!Chest_78'
-    21300158: '!Chest_79'
-    21300160: '!Chest_80'
-    21300162: '!Chest_81'
-    21300164: '!Chest_82'
-    21300166: '!Chest_83'
-    21300168: '!Chest_84'
-    21300170: '!Chest_85'
-    21300172: '!Chest_86'
-    21300174: '!Chest_87'
-    21300176: '!Chest_88'
-    21300178: '!Chest_89'
-    21300180: '!Chest_90'
-    21300182: '!Chest_91'
-    21300184: '!Chest_92'
-    21300186: '!Chest_93'
-    21300188: '!Chest_94'
-    21300190: '!Chest_95'
+    21300000: Monster_0
+    21300002: Monster_1
+    21300004: Monster_2
+    21300006: Monster_3
+    21300008: Monster_4
+    21300010: Monster_5
+    21300012: Monster_6
+    21300014: Monster_7
+    21300016: Monster_8
+    21300018: Monster_9
+    21300020: Monster_10
+    21300022: Monster_11
+    21300024: Monster_12
+    21300026: Monster_13
+    21300028: Monster_14
+    21300030: Monster_15
+    21300032: Monster_16
+    21300034: Monster_17
+    21300036: Monster_18
+    21300038: Monster_19
+    21300040: Monster_20
+    21300042: Monster_21
+    21300044: Monster_22
+    21300046: Monster_23
+    21300048: Monster_24
+    21300050: Monster_25
+    21300052: Monster_26
+    21300054: Monster_27
+    21300056: Monster_28
+    21300058: Monster_29
+    21300060: Monster_30
+    21300062: Monster_31
+    21300064: Monster_32
+    21300066: Monster_33
+    21300068: Monster_34
+    21300070: Monster_35
+    21300072: Monster_36
+    21300074: Monster_37
+    21300076: Monster_38
+    21300078: Monster_39
+    21300080: Monster_40
+    21300082: Monster_41
+    21300084: Monster_42
+    21300086: Monster_43
+    21300088: Monster_44
+    21300090: Monster_45
+    21300092: Monster_46
+    21300094: Monster_47
+    21300096: Monster_48
+    21300098: Monster_49
+    21300100: Monster_50
+    21300102: Monster_51
+    21300104: Monster_52
+    21300106: Monster_53
+    21300108: Monster_54
+    21300110: Monster_55
+    21300112: Monster_56
+    21300114: Monster_57
+    21300116: Monster_58
+    21300118: Monster_59
+    21300120: Monster_60
+    21300122: Monster_61
+    21300124: Monster_62
+    21300126: Monster_63
+    21300128: Monster_64
+    21300130: Monster_65
+    21300132: Monster_66
+    21300134: Monster_67
+    21300136: Monster_68
+    21300138: Monster_69
+    21300140: Monster_70
+    21300142: Monster_71
+    21300144: Monster_72
+    21300146: Monster_73
+    21300148: Monster_74
+    21300150: Monster_75
+    21300152: Monster_76
+    21300154: Monster_77
+    21300156: Monster_78
+    21300158: Monster_79
+    21300160: Monster_80
+    21300162: Monster_81
+    21300164: Monster_82
+    21300166: Monster_83
+    21300168: Monster_84
+    21300170: Monster_85
+    21300172: Monster_86
+    21300174: Monster_87
+    21300176: Monster_88
+    21300178: Monster_89
+    21300180: Monster_90
+    21300182: Monster_91
+    21300184: Monster_92
+    21300186: Monster_93
+    21300188: Monster_94
+    21300190: Monster_95
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -180,7 +180,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '!Chest_0'
+      name: Monster_0
       rect:
         serializedVersion: 2
         x: 0
@@ -194,13 +194,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9584bdcc514da4883e4b7cd573f0f5
+      spriteID: dbda0f78dd1b1bd419980f74ac55f7a8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_1'
+      name: Monster_1
       rect:
         serializedVersion: 2
         x: 48
@@ -214,13 +214,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f428112a446384a4b8da9ec09eec0799
+      spriteID: 949cf99164229f5449e751636f708adb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_2'
+      name: Monster_2
       rect:
         serializedVersion: 2
         x: 96
@@ -234,13 +234,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd04f3349e9927b4d9323360548087cd
+      spriteID: f39137b1f56df1c4a8c77efef711e24f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_3'
+      name: Monster_3
       rect:
         serializedVersion: 2
         x: 144
@@ -254,13 +254,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f213fed47b41b1d47bf45682986e4019
+      spriteID: 95e7c8997d9e60e4a96d2a8cff4d45af
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_4'
+      name: Monster_4
       rect:
         serializedVersion: 2
         x: 192
@@ -274,13 +274,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ef1dbd0370c9a42af93bced4bdac86
+      spriteID: 937736c324485ef4b9367061eafadab3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_5'
+      name: Monster_5
       rect:
         serializedVersion: 2
         x: 240
@@ -294,13 +294,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a4665ffe8287c418d6da02b6b7d3f2
+      spriteID: 781d3ed57f7300f42a81a5357545982d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_6'
+      name: Monster_6
       rect:
         serializedVersion: 2
         x: 288
@@ -314,13 +314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 383be02880f7b0d4db8564f76760d931
+      spriteID: 8cc427aa10851374e86fa816d3bacb3e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_7'
+      name: Monster_7
       rect:
         serializedVersion: 2
         x: 336
@@ -334,13 +334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8f30a5161f4efd43907f1964aa3d340
+      spriteID: 5434c2d432631d540a96381e6cef82ea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_8'
+      name: Monster_8
       rect:
         serializedVersion: 2
         x: 384
@@ -354,13 +354,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19274653a98a1ef438dbbfbfca4454bf
+      spriteID: 4bf0b530ab154e24ba2328f58d48a4a2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_9'
+      name: Monster_9
       rect:
         serializedVersion: 2
         x: 432
@@ -374,13 +374,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd72a7451ac1fca48b5f85dd40e213cf
+      spriteID: e7ea2eafe09859e45b4f63743f90fd89
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_10'
+      name: Monster_10
       rect:
         serializedVersion: 2
         x: 480
@@ -394,13 +394,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d0c45cbf356794d983e44d0a2f4215
+      spriteID: 3e2e05156bfe53a40871fa90e7d01baa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_11'
+      name: Monster_11
       rect:
         serializedVersion: 2
         x: 528
@@ -414,13 +414,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e43f874859953eb4a8e1d028f0a1a52f
+      spriteID: 67128b05a05f530458aecadddead0a64
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_12'
+      name: Monster_12
       rect:
         serializedVersion: 2
         x: 0
@@ -434,13 +434,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 222952f3a6929e24a939e6466857bf9f
+      spriteID: d7ab65537d182464e94e4ec04f5ebd41
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_13'
+      name: Monster_13
       rect:
         serializedVersion: 2
         x: 48
@@ -454,13 +454,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2337abbd28bfa9246b419deb238d142f
+      spriteID: f63879f4f2399be4e8f42b319bb9d2f2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_14'
+      name: Monster_14
       rect:
         serializedVersion: 2
         x: 96
@@ -474,13 +474,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b699288178749c45ac1ce545f7c3300
+      spriteID: 5061c9cc2b69caf4480ec0b732ee1560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_15'
+      name: Monster_15
       rect:
         serializedVersion: 2
         x: 144
@@ -494,13 +494,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3748589492c1c74d9200833c9d52c8b
+      spriteID: 9fee1fa24e6b37c4ba4a89b93f3ee4ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_16'
+      name: Monster_16
       rect:
         serializedVersion: 2
         x: 192
@@ -514,13 +514,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dfe58ec9736b9d4fbeae38eff48cd37
+      spriteID: 132f5fffe63221343a1df4bf55ad2fb6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_17'
+      name: Monster_17
       rect:
         serializedVersion: 2
         x: 240
@@ -534,13 +534,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 705850839b8cd454d9380b5997b47738
+      spriteID: 9274eae6019fdad4797a6f13dd6dfb37
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_18'
+      name: Monster_18
       rect:
         serializedVersion: 2
         x: 288
@@ -554,13 +554,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b005760e07882b5409ec1207d7781722
+      spriteID: d70e703337f94544a9fa4dd469b979b4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_19'
+      name: Monster_19
       rect:
         serializedVersion: 2
         x: 336
@@ -574,13 +574,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a3b9fa51014f245995fe140f2fa566
+      spriteID: 00e94e5be776c8842a4990afa7ad31e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_20'
+      name: Monster_20
       rect:
         serializedVersion: 2
         x: 384
@@ -594,13 +594,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaad81ae9c58fdf4597fd627370c16c8
+      spriteID: a53173a59a621014a9d6be053f166584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_21'
+      name: Monster_21
       rect:
         serializedVersion: 2
         x: 432
@@ -614,13 +614,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a609d97272ec52647b63de9cceb05ceb
+      spriteID: 3e5e3675d53dc26459e20db1dba2fea1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_22'
+      name: Monster_22
       rect:
         serializedVersion: 2
         x: 480
@@ -634,13 +634,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eeef10f8c7eeba4689ce77826c931aa
+      spriteID: 70b3bc8a0b0beeb41820ce10feb7250d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_23'
+      name: Monster_23
       rect:
         serializedVersion: 2
         x: 528
@@ -654,13 +654,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6aeaa5c239b03f4889219420a1f9ad6
+      spriteID: f373efb9839347444918a0d76fff82bd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_24'
+      name: Monster_24
       rect:
         serializedVersion: 2
         x: 0
@@ -674,13 +674,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a154d88463489646840c35a7ae54125
+      spriteID: fbfed2d84ae0d124c8c258e2faadad87
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_25'
+      name: Monster_25
       rect:
         serializedVersion: 2
         x: 48
@@ -694,13 +694,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 133b2eaf86d3a2442b163bf0f0539983
+      spriteID: d86a9bcc42ba4e04da3ab7cf9a186ebd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_26'
+      name: Monster_26
       rect:
         serializedVersion: 2
         x: 96
@@ -714,13 +714,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6250662787aa77e49a9c64d850688e25
+      spriteID: edf7a98e2719525478f7bf603ad9013d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_27'
+      name: Monster_27
       rect:
         serializedVersion: 2
         x: 144
@@ -734,13 +734,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 788239e3fd1167440a888c13e5208907
+      spriteID: 8f56eb6faddedde47a2664da183fe598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_28'
+      name: Monster_28
       rect:
         serializedVersion: 2
         x: 192
@@ -754,13 +754,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd44f80d9dcd5504c8847fbae02d894c
+      spriteID: 38a7f5ed64628b44bbe0bd8dde51a4d8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_29'
+      name: Monster_29
       rect:
         serializedVersion: 2
         x: 240
@@ -774,13 +774,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c89749d2906274591f9af3b8bb82ec
+      spriteID: 5bfb01220d77575439ab8653918bf263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_30'
+      name: Monster_30
       rect:
         serializedVersion: 2
         x: 288
@@ -794,13 +794,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 963de3110c672bb469141adcb3e49590
+      spriteID: 7a41ca19419d3e14da8b5b46eafdbe25
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_31'
+      name: Monster_31
       rect:
         serializedVersion: 2
         x: 336
@@ -814,13 +814,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ac6062e48315d4f9cc58f73e565c78
+      spriteID: 8646af07ba3c1ad43ae561d95175c812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_32'
+      name: Monster_32
       rect:
         serializedVersion: 2
         x: 384
@@ -834,13 +834,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f45693604a16aeb4c93ac15ab7e97025
+      spriteID: 07a35966237d77a4baa4a6e8416a7452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_33'
+      name: Monster_33
       rect:
         serializedVersion: 2
         x: 432
@@ -854,13 +854,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bb350d0276e9545977b727627e4657
+      spriteID: 041f6ca69c32bc94f8051508920c5f56
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_34'
+      name: Monster_34
       rect:
         serializedVersion: 2
         x: 480
@@ -874,13 +874,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a323fec717df8409b9d64117004076
+      spriteID: 18bd78a82a43df140a9ab63b343c1d0f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_35'
+      name: Monster_35
       rect:
         serializedVersion: 2
         x: 528
@@ -894,13 +894,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f5cd336c072e948a8b860089bf9136
+      spriteID: 42cc4e03483e1de46825c2b891deb941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_36'
+      name: Monster_36
       rect:
         serializedVersion: 2
         x: 0
@@ -914,13 +914,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98122b610b0c2374a87f464c172ace38
+      spriteID: 8b15737835fbe5c419b96a0fc32ad866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_37'
+      name: Monster_37
       rect:
         serializedVersion: 2
         x: 48
@@ -934,13 +934,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64941e8ba3f161b449fa3c965b800cf9
+      spriteID: 8ac1d313809bb93498bc393a6e84b266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_38'
+      name: Monster_38
       rect:
         serializedVersion: 2
         x: 96
@@ -954,13 +954,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e47e36bd7adabd4eb6a35fdbf4a7218
+      spriteID: cc6251b68aeca8c488f6ae5514da4da1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_39'
+      name: Monster_39
       rect:
         serializedVersion: 2
         x: 144
@@ -974,13 +974,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a50f1759b938f48885bfbe84e8b18a
+      spriteID: eba1feb555237d54fa28793d277afac6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_40'
+      name: Monster_40
       rect:
         serializedVersion: 2
         x: 192
@@ -994,13 +994,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f3f86eb33139d4cbe295be541ac835
+      spriteID: bb6d4e707f1745143bd82f99c076f8c4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_41'
+      name: Monster_41
       rect:
         serializedVersion: 2
         x: 240
@@ -1014,13 +1014,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c76699aa7ad8d6428fc4b15b9d70be9
+      spriteID: fd09a2fdaf030e14e9dab256873822f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_42'
+      name: Monster_42
       rect:
         serializedVersion: 2
         x: 288
@@ -1034,13 +1034,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29b3b68075c50204abbe1c88b2a89d6c
+      spriteID: 5bc936701097c0d4b897b1000582ae08
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_43'
+      name: Monster_43
       rect:
         serializedVersion: 2
         x: 336
@@ -1054,13 +1054,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd368ed7126d91145a11deea806f2b19
+      spriteID: 0a3d10e98ca85354c8c2b659ef36b8a6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_44'
+      name: Monster_44
       rect:
         serializedVersion: 2
         x: 384
@@ -1074,13 +1074,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15dd8581a9630bf4b8eb58236298a78d
+      spriteID: 9c7523f29310f2740a9df9d02d3fd7dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_45'
+      name: Monster_45
       rect:
         serializedVersion: 2
         x: 432
@@ -1094,13 +1094,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c54719aa79354b54cbcfd11f87285d44
+      spriteID: c8f16765aafe3ee4ab533085505a43d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_46'
+      name: Monster_46
       rect:
         serializedVersion: 2
         x: 480
@@ -1114,13 +1114,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1448e78f02a2354ab51077dda43969f
+      spriteID: 22b8b84b94b0d504ba3ba1e7c6071c3d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_47'
+      name: Monster_47
       rect:
         serializedVersion: 2
         x: 528
@@ -1134,13 +1134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13417af6024fba743b75f337979794e4
+      spriteID: 1f40778c17473994089ce76057deb76f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_48'
+      name: Monster_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1154,13 +1154,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 391330093f6997b4991a07ab28d0fc8f
+      spriteID: af654b437b71597499a38aaf4ba7f003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_49'
+      name: Monster_49
       rect:
         serializedVersion: 2
         x: 48
@@ -1174,13 +1174,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e2f11025709f946877d4bd4a16fbd8
+      spriteID: be21f774312421446a8a862534a0ba5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_50'
+      name: Monster_50
       rect:
         serializedVersion: 2
         x: 96
@@ -1194,13 +1194,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d02e71e2f7f29d45ba5ec2ca7bb4c99
+      spriteID: ab44ea4fda4021747b6af1279279991f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_51'
+      name: Monster_51
       rect:
         serializedVersion: 2
         x: 144
@@ -1214,13 +1214,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63499123188628247a6cd934e66f9b67
+      spriteID: 1137ccb036c50b04a9996d6eaed6779e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_52'
+      name: Monster_52
       rect:
         serializedVersion: 2
         x: 192
@@ -1234,13 +1234,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ca603013b4e0f4c901cfd520ac9889
+      spriteID: 96434ebafdd1d224e9ac601b9cd82a30
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_53'
+      name: Monster_53
       rect:
         serializedVersion: 2
         x: 240
@@ -1254,13 +1254,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0a087c301073b469100fd192a6021b
+      spriteID: b102d30b5756781439e645f293bce5aa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_54'
+      name: Monster_54
       rect:
         serializedVersion: 2
         x: 288
@@ -1274,13 +1274,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70685bd5b02a8b84ca3affc6ea2bcbf4
+      spriteID: 8d6327fb3850d354eb572db0412cfa44
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_55'
+      name: Monster_55
       rect:
         serializedVersion: 2
         x: 336
@@ -1294,13 +1294,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97899054d57f04745b06198d74c50699
+      spriteID: 2e79ddfb6cb21d645a1b6a57f55c45cb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_56'
+      name: Monster_56
       rect:
         serializedVersion: 2
         x: 384
@@ -1314,13 +1314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e339d9098e0fe8747b2a9f19e3e74d4b
+      spriteID: ede989d7a13bd22408fe61c6dca2ad1b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_57'
+      name: Monster_57
       rect:
         serializedVersion: 2
         x: 432
@@ -1334,13 +1334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c512866a768ca8e43aedfa2235a1208b
+      spriteID: 7d6e39a199edd5d4f81eee61d1896b37
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_58'
+      name: Monster_58
       rect:
         serializedVersion: 2
         x: 480
@@ -1354,13 +1354,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3350119fc9ea2214fb47a4dd4073d18a
+      spriteID: 3de79f66a445b4d43a3539b0bedcd97f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_59'
+      name: Monster_59
       rect:
         serializedVersion: 2
         x: 528
@@ -1374,13 +1374,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56ce525fc81972a4a96492c37a18e5c1
+      spriteID: c62915d67fcdca348b4a7c0d799533f6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_60'
+      name: Monster_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1394,13 +1394,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a4367a66e7e66b4db836525d5fbda78
+      spriteID: 7e380f813ef2c444da5aa3e20a410b12
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_61'
+      name: Monster_61
       rect:
         serializedVersion: 2
         x: 48
@@ -1414,13 +1414,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e914e60dcf8c764f8551adef25301b5
+      spriteID: d1bf7a16455070443ba7cdadd1d88083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_62'
+      name: Monster_62
       rect:
         serializedVersion: 2
         x: 96
@@ -1434,13 +1434,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94741479be3699a4b8c8d87e2e68d24b
+      spriteID: 048a24c75c0c019449daaf5aca188155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_63'
+      name: Monster_63
       rect:
         serializedVersion: 2
         x: 144
@@ -1454,13 +1454,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8503bcca61c701a40bb1bec77cd032c1
+      spriteID: 8b86f9ecdb53e54468af07ae3736dce9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_64'
+      name: Monster_64
       rect:
         serializedVersion: 2
         x: 192
@@ -1474,13 +1474,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3d9d6b1c1691f43981e02e06862adc
+      spriteID: f53ef13fddab00d40807c1e71652851e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_65'
+      name: Monster_65
       rect:
         serializedVersion: 2
         x: 240
@@ -1494,13 +1494,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc38de8dc040a7541a11c970fe6cd2f2
+      spriteID: 0f6bf814e69aef64cb56ae9a2e8eb20f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_66'
+      name: Monster_66
       rect:
         serializedVersion: 2
         x: 288
@@ -1514,13 +1514,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e5132405da5fe5418569921024a228b
+      spriteID: bf71923de86915543bb2c3d73d71d997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_67'
+      name: Monster_67
       rect:
         serializedVersion: 2
         x: 336
@@ -1534,13 +1534,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1df39ce623f6c4fb82c21b4427c559
+      spriteID: d153f888c412ee342a86ec094628a27d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_68'
+      name: Monster_68
       rect:
         serializedVersion: 2
         x: 384
@@ -1554,13 +1554,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e598c6103dbc8ad4789748a5742b460a
+      spriteID: aaec812ca9926754da2f7c64ed562eec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_69'
+      name: Monster_69
       rect:
         serializedVersion: 2
         x: 432
@@ -1574,13 +1574,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7074703888b4f7b429ff04877bae60ce
+      spriteID: 37ed1a5858e11a64098dc58067ceadb4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_70'
+      name: Monster_70
       rect:
         serializedVersion: 2
         x: 480
@@ -1594,13 +1594,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b0d284bbde62f4cb905af520440fc6
+      spriteID: 013e237a05fc4ac40b5db1ff82dc9428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_71'
+      name: Monster_71
       rect:
         serializedVersion: 2
         x: 528
@@ -1614,13 +1614,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6be7fa4cf34b24a8e238e3797c0dd3
+      spriteID: 67dfffb12fb0fd549ba276ee8c65c609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_72'
+      name: Monster_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1634,13 +1634,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46609baa19ef11943b396e0f80535724
+      spriteID: 8bf72654c13a3cd4fa774c1716f8e7ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_73'
+      name: Monster_73
       rect:
         serializedVersion: 2
         x: 48
@@ -1654,13 +1654,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926fc9091350101408747d73dadb761d
+      spriteID: eccee47ab5ccfd448b6a50074e4701d5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_74'
+      name: Monster_74
       rect:
         serializedVersion: 2
         x: 96
@@ -1674,13 +1674,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10355406fbc4d6c4c9e01ddab5edb97e
+      spriteID: 759baa0192ef8ca41a94e2a3a9d1a426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_75'
+      name: Monster_75
       rect:
         serializedVersion: 2
         x: 144
@@ -1694,13 +1694,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ecfa8c3157038a499022cd8a2467cc7
+      spriteID: db068bc1e3a8406419d46f4c7eb86509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_76'
+      name: Monster_76
       rect:
         serializedVersion: 2
         x: 192
@@ -1714,13 +1714,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e69601e8bb8e242bc25db2ce767764
+      spriteID: 976c59deaf1a4564591015d6db38ab5b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_77'
+      name: Monster_77
       rect:
         serializedVersion: 2
         x: 240
@@ -1734,13 +1734,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d416878abfa72478954843e47c243d
+      spriteID: dd8d86b75497cf447a65abdf3b26c301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_78'
+      name: Monster_78
       rect:
         serializedVersion: 2
         x: 288
@@ -1754,13 +1754,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2f81bc65d6a7e4f84451ab6f8fc37a
+      spriteID: 466def820ab89c64d906731a03f3b8c4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_79'
+      name: Monster_79
       rect:
         serializedVersion: 2
         x: 336
@@ -1774,13 +1774,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67efed2da478208448d9ead18069e2f8
+      spriteID: 0db2e4592f7d6fb4fb6d0ee66708e563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_80'
+      name: Monster_80
       rect:
         serializedVersion: 2
         x: 384
@@ -1794,13 +1794,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b0b355afbdfd244bfa9036f1c7a0d3
+      spriteID: f49d65476a581ce439f364f80fc21dfb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_81'
+      name: Monster_81
       rect:
         serializedVersion: 2
         x: 432
@@ -1814,13 +1814,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb480e2fc3a4c04a92c5a3441defd09
+      spriteID: 3ef772c674b30704a919b4221afed49a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_82'
+      name: Monster_82
       rect:
         serializedVersion: 2
         x: 480
@@ -1834,13 +1834,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91353487067a374b977b35256f1e96f
+      spriteID: cd5cf3ac78f4cc14f8a8d14274cc05c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_83'
+      name: Monster_83
       rect:
         serializedVersion: 2
         x: 528
@@ -1854,13 +1854,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: addf79151df72d943ac2b3e5b89be98d
+      spriteID: 6193af7f7132f564cb65912bbebca876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_84'
+      name: Monster_84
       rect:
         serializedVersion: 2
         x: 0
@@ -1874,13 +1874,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9846e9dfec35c954d9b4b70e02402560
+      spriteID: 0e3d8f917c6fc974eb3320e178a1e6c7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_85'
+      name: Monster_85
       rect:
         serializedVersion: 2
         x: 48
@@ -1894,13 +1894,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3c4ec8fbdb2f44f8a4ac30ff36635c
+      spriteID: 44481fbb23c81214c88a30cc80d83012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_86'
+      name: Monster_86
       rect:
         serializedVersion: 2
         x: 96
@@ -1914,13 +1914,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae883c00d75a7be44bfd9e72763fee11
+      spriteID: 45120de1fa19e3b44a7426d9f723eaf4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_87'
+      name: Monster_87
       rect:
         serializedVersion: 2
         x: 144
@@ -1934,13 +1934,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ba61ff3b6e32fc4eabef264e16c3506
+      spriteID: 30786ff77c021e646bc07ea2d34b9c9c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_88'
+      name: Monster_88
       rect:
         serializedVersion: 2
         x: 192
@@ -1954,13 +1954,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dadfc22cb59f4874b9a64c234587abdd
+      spriteID: ce2b9fac8510f524caeeb50b827cf913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_89'
+      name: Monster_89
       rect:
         serializedVersion: 2
         x: 240
@@ -1974,13 +1974,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf2fdd6c1ccf224a9cd518514f3d825
+      spriteID: fd2f23901092c6e4ab7183fbb2d18d27
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_90'
+      name: Monster_90
       rect:
         serializedVersion: 2
         x: 288
@@ -1994,13 +1994,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa2a1fd47484874e9bbbe53dabcaf2c
+      spriteID: 009ff77b0a7f43641b68221a60c504f2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_91'
+      name: Monster_91
       rect:
         serializedVersion: 2
         x: 336
@@ -2014,13 +2014,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a30406e7b8e7474fbabbf680afbed83
+      spriteID: b38c57bf99f64f14b8e4f032de7fdc35
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_92'
+      name: Monster_92
       rect:
         serializedVersion: 2
         x: 384
@@ -2034,13 +2034,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14f9a2a0ac408545930080639bc7ca2
+      spriteID: 687df4850979e69449ae11d9f4dcec69
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_93'
+      name: Monster_93
       rect:
         serializedVersion: 2
         x: 432
@@ -2054,13 +2054,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199977afa8acf4c42b49685bb812ae90
+      spriteID: 6f851bc6363f60540a56d26bbdcd24a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_94'
+      name: Monster_94
       rect:
         serializedVersion: 2
         x: 480
@@ -2074,13 +2074,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f52d67f3925475148abfae79c92e2bb0
+      spriteID: 0e524da5ae2d5ae4787af195a0a18426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_95'
+      name: Monster_95
       rect:
         serializedVersion: 2
         x: 528
@@ -2094,7 +2094,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35613f5262976494db7f532fa3306621
+      spriteID: 797fe71d99ac09248a17e457d7ce0b5e
       vertices: []
       indices: 
       edges: []
@@ -2102,7 +2102,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a511f993edd085b499b809933f249747
+    spriteID: a56b7df9678a6c94b875189346cef468
     vertices: []
     indices: 
     edges: []

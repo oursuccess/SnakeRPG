@@ -1,103 +1,103 @@
 fileFormatVersion: 2
-guid: 3ed88b5b22e761c42891b7d52cad5722
+guid: 9dbc72d65fa1a4045b7c8248349c65b9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: '!Chest_0'
-    21300002: '!Chest_1'
-    21300004: '!Chest_2'
-    21300006: '!Chest_3'
-    21300008: '!Chest_4'
-    21300010: '!Chest_5'
-    21300012: '!Chest_6'
-    21300014: '!Chest_7'
-    21300016: '!Chest_8'
-    21300018: '!Chest_9'
-    21300020: '!Chest_10'
-    21300022: '!Chest_11'
-    21300024: '!Chest_12'
-    21300026: '!Chest_13'
-    21300028: '!Chest_14'
-    21300030: '!Chest_15'
-    21300032: '!Chest_16'
-    21300034: '!Chest_17'
-    21300036: '!Chest_18'
-    21300038: '!Chest_19'
-    21300040: '!Chest_20'
-    21300042: '!Chest_21'
-    21300044: '!Chest_22'
-    21300046: '!Chest_23'
-    21300048: '!Chest_24'
-    21300050: '!Chest_25'
-    21300052: '!Chest_26'
-    21300054: '!Chest_27'
-    21300056: '!Chest_28'
-    21300058: '!Chest_29'
-    21300060: '!Chest_30'
-    21300062: '!Chest_31'
-    21300064: '!Chest_32'
-    21300066: '!Chest_33'
-    21300068: '!Chest_34'
-    21300070: '!Chest_35'
-    21300072: '!Chest_36'
-    21300074: '!Chest_37'
-    21300076: '!Chest_38'
-    21300078: '!Chest_39'
-    21300080: '!Chest_40'
-    21300082: '!Chest_41'
-    21300084: '!Chest_42'
-    21300086: '!Chest_43'
-    21300088: '!Chest_44'
-    21300090: '!Chest_45'
-    21300092: '!Chest_46'
-    21300094: '!Chest_47'
-    21300096: '!Chest_48'
-    21300098: '!Chest_49'
-    21300100: '!Chest_50'
-    21300102: '!Chest_51'
-    21300104: '!Chest_52'
-    21300106: '!Chest_53'
-    21300108: '!Chest_54'
-    21300110: '!Chest_55'
-    21300112: '!Chest_56'
-    21300114: '!Chest_57'
-    21300116: '!Chest_58'
-    21300118: '!Chest_59'
-    21300120: '!Chest_60'
-    21300122: '!Chest_61'
-    21300124: '!Chest_62'
-    21300126: '!Chest_63'
-    21300128: '!Chest_64'
-    21300130: '!Chest_65'
-    21300132: '!Chest_66'
-    21300134: '!Chest_67'
-    21300136: '!Chest_68'
-    21300138: '!Chest_69'
-    21300140: '!Chest_70'
-    21300142: '!Chest_71'
-    21300144: '!Chest_72'
-    21300146: '!Chest_73'
-    21300148: '!Chest_74'
-    21300150: '!Chest_75'
-    21300152: '!Chest_76'
-    21300154: '!Chest_77'
-    21300156: '!Chest_78'
-    21300158: '!Chest_79'
-    21300160: '!Chest_80'
-    21300162: '!Chest_81'
-    21300164: '!Chest_82'
-    21300166: '!Chest_83'
-    21300168: '!Chest_84'
-    21300170: '!Chest_85'
-    21300172: '!Chest_86'
-    21300174: '!Chest_87'
-    21300176: '!Chest_88'
-    21300178: '!Chest_89'
-    21300180: '!Chest_90'
-    21300182: '!Chest_91'
-    21300184: '!Chest_92'
-    21300186: '!Chest_93'
-    21300188: '!Chest_94'
-    21300190: '!Chest_95'
+    21300000: Damage1_0
+    21300002: Damage1_1
+    21300004: Damage1_2
+    21300006: Damage1_3
+    21300008: Damage1_4
+    21300010: Damage1_5
+    21300012: Damage1_6
+    21300014: Damage1_7
+    21300016: Damage1_8
+    21300018: Damage1_9
+    21300020: Damage1_10
+    21300022: Damage1_11
+    21300024: Damage1_12
+    21300026: Damage1_13
+    21300028: Damage1_14
+    21300030: Damage1_15
+    21300032: Damage1_16
+    21300034: Damage1_17
+    21300036: Damage1_18
+    21300038: Damage1_19
+    21300040: Damage1_20
+    21300042: Damage1_21
+    21300044: Damage1_22
+    21300046: Damage1_23
+    21300048: Damage1_24
+    21300050: Damage1_25
+    21300052: Damage1_26
+    21300054: Damage1_27
+    21300056: Damage1_28
+    21300058: Damage1_29
+    21300060: Damage1_30
+    21300062: Damage1_31
+    21300064: Damage1_32
+    21300066: Damage1_33
+    21300068: Damage1_34
+    21300070: Damage1_35
+    21300072: Damage1_36
+    21300074: Damage1_37
+    21300076: Damage1_38
+    21300078: Damage1_39
+    21300080: Damage1_40
+    21300082: Damage1_41
+    21300084: Damage1_42
+    21300086: Damage1_43
+    21300088: Damage1_44
+    21300090: Damage1_45
+    21300092: Damage1_46
+    21300094: Damage1_47
+    21300096: Damage1_48
+    21300098: Damage1_49
+    21300100: Damage1_50
+    21300102: Damage1_51
+    21300104: Damage1_52
+    21300106: Damage1_53
+    21300108: Damage1_54
+    21300110: Damage1_55
+    21300112: Damage1_56
+    21300114: Damage1_57
+    21300116: Damage1_58
+    21300118: Damage1_59
+    21300120: Damage1_60
+    21300122: Damage1_61
+    21300124: Damage1_62
+    21300126: Damage1_63
+    21300128: Damage1_64
+    21300130: Damage1_65
+    21300132: Damage1_66
+    21300134: Damage1_67
+    21300136: Damage1_68
+    21300138: Damage1_69
+    21300140: Damage1_70
+    21300142: Damage1_71
+    21300144: Damage1_72
+    21300146: Damage1_73
+    21300148: Damage1_74
+    21300150: Damage1_75
+    21300152: Damage1_76
+    21300154: Damage1_77
+    21300156: Damage1_78
+    21300158: Damage1_79
+    21300160: Damage1_80
+    21300162: Damage1_81
+    21300164: Damage1_82
+    21300166: Damage1_83
+    21300168: Damage1_84
+    21300170: Damage1_85
+    21300172: Damage1_86
+    21300174: Damage1_87
+    21300176: Damage1_88
+    21300178: Damage1_89
+    21300180: Damage1_90
+    21300182: Damage1_91
+    21300184: Damage1_92
+    21300186: Damage1_93
+    21300188: Damage1_94
+    21300190: Damage1_95
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -180,7 +180,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '!Chest_0'
+      name: Damage1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -194,13 +194,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9584bdcc514da4883e4b7cd573f0f5
+      spriteID: 20d4c17717f8ad44dbc12b7ced16589c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_1'
+      name: Damage1_1
       rect:
         serializedVersion: 2
         x: 48
@@ -214,13 +214,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f428112a446384a4b8da9ec09eec0799
+      spriteID: ff471d53d59543d4d9f1c073926090d4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_2'
+      name: Damage1_2
       rect:
         serializedVersion: 2
         x: 96
@@ -234,13 +234,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd04f3349e9927b4d9323360548087cd
+      spriteID: ac7bec0505990a14f83926c42e4ee638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_3'
+      name: Damage1_3
       rect:
         serializedVersion: 2
         x: 144
@@ -254,13 +254,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f213fed47b41b1d47bf45682986e4019
+      spriteID: e58cbedae09c5c042ab706a49db1a648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_4'
+      name: Damage1_4
       rect:
         serializedVersion: 2
         x: 192
@@ -274,13 +274,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ef1dbd0370c9a42af93bced4bdac86
+      spriteID: f00e296e3ac311a4e9b17f86954a1fbc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_5'
+      name: Damage1_5
       rect:
         serializedVersion: 2
         x: 240
@@ -294,13 +294,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a4665ffe8287c418d6da02b6b7d3f2
+      spriteID: 2c4df112a138d6e4ab8831e450da0274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_6'
+      name: Damage1_6
       rect:
         serializedVersion: 2
         x: 288
@@ -314,13 +314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 383be02880f7b0d4db8564f76760d931
+      spriteID: 83cce4bea17e6bd4599f17e734194880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_7'
+      name: Damage1_7
       rect:
         serializedVersion: 2
         x: 336
@@ -334,13 +334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8f30a5161f4efd43907f1964aa3d340
+      spriteID: 2e4627e9b39177f46900fef10af4a59c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_8'
+      name: Damage1_8
       rect:
         serializedVersion: 2
         x: 384
@@ -354,13 +354,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19274653a98a1ef438dbbfbfca4454bf
+      spriteID: 518cdd48f5e3193429c6b9702ea1839f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_9'
+      name: Damage1_9
       rect:
         serializedVersion: 2
         x: 432
@@ -374,13 +374,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd72a7451ac1fca48b5f85dd40e213cf
+      spriteID: 746d75d18254564469044f634449eec0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_10'
+      name: Damage1_10
       rect:
         serializedVersion: 2
         x: 480
@@ -394,13 +394,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d0c45cbf356794d983e44d0a2f4215
+      spriteID: 7b4d540b65ec6ec48ad3717dcce81b0b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_11'
+      name: Damage1_11
       rect:
         serializedVersion: 2
         x: 528
@@ -414,13 +414,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e43f874859953eb4a8e1d028f0a1a52f
+      spriteID: 994c65ce3cb4307449f2071cb62303de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_12'
+      name: Damage1_12
       rect:
         serializedVersion: 2
         x: 0
@@ -434,13 +434,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 222952f3a6929e24a939e6466857bf9f
+      spriteID: d2f2347d5549e7a4586614f34d47d4ce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_13'
+      name: Damage1_13
       rect:
         serializedVersion: 2
         x: 48
@@ -454,13 +454,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2337abbd28bfa9246b419deb238d142f
+      spriteID: 58963042dd73dc9469c6616be599e23a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_14'
+      name: Damage1_14
       rect:
         serializedVersion: 2
         x: 96
@@ -474,13 +474,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b699288178749c45ac1ce545f7c3300
+      spriteID: b421c61bdd5cbff4ea7a7979d6d33092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_15'
+      name: Damage1_15
       rect:
         serializedVersion: 2
         x: 144
@@ -494,13 +494,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3748589492c1c74d9200833c9d52c8b
+      spriteID: 54aca45feadb4a744aa028dba19584a5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_16'
+      name: Damage1_16
       rect:
         serializedVersion: 2
         x: 192
@@ -514,13 +514,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dfe58ec9736b9d4fbeae38eff48cd37
+      spriteID: a29c43c054856c94e9f12e520aed8116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_17'
+      name: Damage1_17
       rect:
         serializedVersion: 2
         x: 240
@@ -534,13 +534,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 705850839b8cd454d9380b5997b47738
+      spriteID: 83f195af5516dd44abf111bcb0c55406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_18'
+      name: Damage1_18
       rect:
         serializedVersion: 2
         x: 288
@@ -554,13 +554,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b005760e07882b5409ec1207d7781722
+      spriteID: eb08afd92f4d34642b05af8906a14937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_19'
+      name: Damage1_19
       rect:
         serializedVersion: 2
         x: 336
@@ -574,13 +574,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2a3b9fa51014f245995fe140f2fa566
+      spriteID: 0c7b84b0605493a42a7ac8279f3c9e07
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_20'
+      name: Damage1_20
       rect:
         serializedVersion: 2
         x: 384
@@ -594,13 +594,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaad81ae9c58fdf4597fd627370c16c8
+      spriteID: 9660adc1174a98a4e8d50030a3b1223b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_21'
+      name: Damage1_21
       rect:
         serializedVersion: 2
         x: 432
@@ -614,13 +614,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a609d97272ec52647b63de9cceb05ceb
+      spriteID: 940659df1ceab8f4a99f970ebd1330d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_22'
+      name: Damage1_22
       rect:
         serializedVersion: 2
         x: 480
@@ -634,13 +634,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5eeef10f8c7eeba4689ce77826c931aa
+      spriteID: da2dee29ba2086246bd0ec9c69a23ee0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_23'
+      name: Damage1_23
       rect:
         serializedVersion: 2
         x: 528
@@ -654,13 +654,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6aeaa5c239b03f4889219420a1f9ad6
+      spriteID: d30307e16f857874d8fbd67993a4a741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_24'
+      name: Damage1_24
       rect:
         serializedVersion: 2
         x: 0
@@ -674,13 +674,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a154d88463489646840c35a7ae54125
+      spriteID: 52a1be3c167ec0743af4ba718ee3f15c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_25'
+      name: Damage1_25
       rect:
         serializedVersion: 2
         x: 48
@@ -694,13 +694,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 133b2eaf86d3a2442b163bf0f0539983
+      spriteID: 93e7f12954966ca44b35050e20c2af39
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_26'
+      name: Damage1_26
       rect:
         serializedVersion: 2
         x: 96
@@ -714,13 +714,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6250662787aa77e49a9c64d850688e25
+      spriteID: 6eb0c683593d09e42ba4b79b1766146b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_27'
+      name: Damage1_27
       rect:
         serializedVersion: 2
         x: 144
@@ -734,13 +734,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 788239e3fd1167440a888c13e5208907
+      spriteID: 652f0fb51121e524484c20660826ddbe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_28'
+      name: Damage1_28
       rect:
         serializedVersion: 2
         x: 192
@@ -754,13 +754,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd44f80d9dcd5504c8847fbae02d894c
+      spriteID: 6e98ecffe7bd0da4e9e4a54fc387c957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_29'
+      name: Damage1_29
       rect:
         serializedVersion: 2
         x: 240
@@ -774,13 +774,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7c89749d2906274591f9af3b8bb82ec
+      spriteID: 1b08dab83080f2b49aac44595c95a16f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_30'
+      name: Damage1_30
       rect:
         serializedVersion: 2
         x: 288
@@ -794,13 +794,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 963de3110c672bb469141adcb3e49590
+      spriteID: e4d3367aa1b19854ab208430ebfb6587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_31'
+      name: Damage1_31
       rect:
         serializedVersion: 2
         x: 336
@@ -814,13 +814,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ac6062e48315d4f9cc58f73e565c78
+      spriteID: be4497598a46ccf44b03dbba24971557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_32'
+      name: Damage1_32
       rect:
         serializedVersion: 2
         x: 384
@@ -834,13 +834,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f45693604a16aeb4c93ac15ab7e97025
+      spriteID: 1714b0429be023b48853d544ecf6b4a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_33'
+      name: Damage1_33
       rect:
         serializedVersion: 2
         x: 432
@@ -854,13 +854,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bb350d0276e9545977b727627e4657
+      spriteID: e0ec11db9f26f0b46bf497de9d558042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_34'
+      name: Damage1_34
       rect:
         serializedVersion: 2
         x: 480
@@ -874,13 +874,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a323fec717df8409b9d64117004076
+      spriteID: fdcc934aab0ff8e429e2f69974ccb795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_35'
+      name: Damage1_35
       rect:
         serializedVersion: 2
         x: 528
@@ -894,13 +894,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f5cd336c072e948a8b860089bf9136
+      spriteID: 1cc2a0be7ba33514792ebeea2b3a4edd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_36'
+      name: Damage1_36
       rect:
         serializedVersion: 2
         x: 0
@@ -914,13 +914,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98122b610b0c2374a87f464c172ace38
+      spriteID: bdc3407227fefec4d910c6acc3e7eb36
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_37'
+      name: Damage1_37
       rect:
         serializedVersion: 2
         x: 48
@@ -934,13 +934,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64941e8ba3f161b449fa3c965b800cf9
+      spriteID: c975d2a000b9fd44fb16c3ca3006a571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_38'
+      name: Damage1_38
       rect:
         serializedVersion: 2
         x: 96
@@ -954,13 +954,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e47e36bd7adabd4eb6a35fdbf4a7218
+      spriteID: 520b754d2d7d8d2479551c66f01242dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_39'
+      name: Damage1_39
       rect:
         serializedVersion: 2
         x: 144
@@ -974,13 +974,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a50f1759b938f48885bfbe84e8b18a
+      spriteID: 7920eceea2506224d9465a6920668a19
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_40'
+      name: Damage1_40
       rect:
         serializedVersion: 2
         x: 192
@@ -994,13 +994,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f3f86eb33139d4cbe295be541ac835
+      spriteID: 275328370daf5f74caae17271ad84835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_41'
+      name: Damage1_41
       rect:
         serializedVersion: 2
         x: 240
@@ -1014,13 +1014,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c76699aa7ad8d6428fc4b15b9d70be9
+      spriteID: 95c466107e28a084c8f2f28bc447eac5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_42'
+      name: Damage1_42
       rect:
         serializedVersion: 2
         x: 288
@@ -1034,13 +1034,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29b3b68075c50204abbe1c88b2a89d6c
+      spriteID: a6a867236c7995f4a9a0bdfc03602ea8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_43'
+      name: Damage1_43
       rect:
         serializedVersion: 2
         x: 336
@@ -1054,13 +1054,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd368ed7126d91145a11deea806f2b19
+      spriteID: c6591740c4a400a41a134bc2d0d14002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_44'
+      name: Damage1_44
       rect:
         serializedVersion: 2
         x: 384
@@ -1074,13 +1074,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15dd8581a9630bf4b8eb58236298a78d
+      spriteID: 4a5dd4ca6d8dcf44fa894d4987d3d3c4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_45'
+      name: Damage1_45
       rect:
         serializedVersion: 2
         x: 432
@@ -1094,13 +1094,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c54719aa79354b54cbcfd11f87285d44
+      spriteID: 2856b8bea5db959479627525008886aa
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_46'
+      name: Damage1_46
       rect:
         serializedVersion: 2
         x: 480
@@ -1114,13 +1114,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1448e78f02a2354ab51077dda43969f
+      spriteID: 76e766d61e4da6a40a3f048d33fe89a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_47'
+      name: Damage1_47
       rect:
         serializedVersion: 2
         x: 528
@@ -1134,13 +1134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13417af6024fba743b75f337979794e4
+      spriteID: 566338758f0b9964fa422992b1cdeb20
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_48'
+      name: Damage1_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1154,13 +1154,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 391330093f6997b4991a07ab28d0fc8f
+      spriteID: e6b41d8f1dacc9f4bb40ffafc47bdd28
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_49'
+      name: Damage1_49
       rect:
         serializedVersion: 2
         x: 48
@@ -1174,13 +1174,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38e2f11025709f946877d4bd4a16fbd8
+      spriteID: 75300d44c4daf7940afb29629d644faf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_50'
+      name: Damage1_50
       rect:
         serializedVersion: 2
         x: 96
@@ -1194,13 +1194,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d02e71e2f7f29d45ba5ec2ca7bb4c99
+      spriteID: ebd86719b8fffa9418ad069dfe9f2447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_51'
+      name: Damage1_51
       rect:
         serializedVersion: 2
         x: 144
@@ -1214,13 +1214,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63499123188628247a6cd934e66f9b67
+      spriteID: c291cde1745cc4242b1df1616ce8754e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_52'
+      name: Damage1_52
       rect:
         serializedVersion: 2
         x: 192
@@ -1234,13 +1234,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ca603013b4e0f4c901cfd520ac9889
+      spriteID: 8738e3ab9deff354a8f72732ab688cad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_53'
+      name: Damage1_53
       rect:
         serializedVersion: 2
         x: 240
@@ -1254,13 +1254,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a0a087c301073b469100fd192a6021b
+      spriteID: 6a693e5509e7c0041b4d5cbe75db9cc0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_54'
+      name: Damage1_54
       rect:
         serializedVersion: 2
         x: 288
@@ -1274,13 +1274,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70685bd5b02a8b84ca3affc6ea2bcbf4
+      spriteID: 981a11e4d0d44a74994f459545472049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_55'
+      name: Damage1_55
       rect:
         serializedVersion: 2
         x: 336
@@ -1294,13 +1294,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97899054d57f04745b06198d74c50699
+      spriteID: d4ced05f484f8fc4aa5b8f3dc916664e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_56'
+      name: Damage1_56
       rect:
         serializedVersion: 2
         x: 384
@@ -1314,13 +1314,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e339d9098e0fe8747b2a9f19e3e74d4b
+      spriteID: 0f8734f7017ab5443a09202d807e5154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_57'
+      name: Damage1_57
       rect:
         serializedVersion: 2
         x: 432
@@ -1334,13 +1334,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c512866a768ca8e43aedfa2235a1208b
+      spriteID: 0fd0c9e1678f3dd4db07aaea3c463c7f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_58'
+      name: Damage1_58
       rect:
         serializedVersion: 2
         x: 480
@@ -1354,13 +1354,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3350119fc9ea2214fb47a4dd4073d18a
+      spriteID: 3315ae603622461469fdc6c4ba10b674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_59'
+      name: Damage1_59
       rect:
         serializedVersion: 2
         x: 528
@@ -1374,13 +1374,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56ce525fc81972a4a96492c37a18e5c1
+      spriteID: fffd6cc4afbc08149ad3733bddc48026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_60'
+      name: Damage1_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1394,13 +1394,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a4367a66e7e66b4db836525d5fbda78
+      spriteID: f57584f53f5ea9941a9534145dd99e62
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_61'
+      name: Damage1_61
       rect:
         serializedVersion: 2
         x: 48
@@ -1414,13 +1414,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e914e60dcf8c764f8551adef25301b5
+      spriteID: ed88c8ae4db91cb4aba49d4428e4b1e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_62'
+      name: Damage1_62
       rect:
         serializedVersion: 2
         x: 96
@@ -1434,13 +1434,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94741479be3699a4b8c8d87e2e68d24b
+      spriteID: d7600a6ab4157894d9ca5321c9a11a80
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_63'
+      name: Damage1_63
       rect:
         serializedVersion: 2
         x: 144
@@ -1454,13 +1454,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8503bcca61c701a40bb1bec77cd032c1
+      spriteID: 8c6b1c3e464625c48aacbd3022f3cb3c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_64'
+      name: Damage1_64
       rect:
         serializedVersion: 2
         x: 192
@@ -1474,13 +1474,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3d9d6b1c1691f43981e02e06862adc
+      spriteID: e72786949f07f204e834071519c2e45f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_65'
+      name: Damage1_65
       rect:
         serializedVersion: 2
         x: 240
@@ -1494,13 +1494,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc38de8dc040a7541a11c970fe6cd2f2
+      spriteID: 679fd1429bafcb94280ac79700797308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_66'
+      name: Damage1_66
       rect:
         serializedVersion: 2
         x: 288
@@ -1514,13 +1514,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e5132405da5fe5418569921024a228b
+      spriteID: ee40f10d2e00e9b488f795e45c7f5591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_67'
+      name: Damage1_67
       rect:
         serializedVersion: 2
         x: 336
@@ -1534,13 +1534,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e1df39ce623f6c4fb82c21b4427c559
+      spriteID: eca8b3fcaecd5ad4b92eb065921102dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_68'
+      name: Damage1_68
       rect:
         serializedVersion: 2
         x: 384
@@ -1554,13 +1554,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e598c6103dbc8ad4789748a5742b460a
+      spriteID: 151fc0836b6ebbc40a95f9cac745738a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_69'
+      name: Damage1_69
       rect:
         serializedVersion: 2
         x: 432
@@ -1574,13 +1574,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7074703888b4f7b429ff04877bae60ce
+      spriteID: 95ee45059d140384895d8fcf276e45fd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_70'
+      name: Damage1_70
       rect:
         serializedVersion: 2
         x: 480
@@ -1594,13 +1594,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b0d284bbde62f4cb905af520440fc6
+      spriteID: ad0544f6bcdf8ab44a2d82ed5ee2d5ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_71'
+      name: Damage1_71
       rect:
         serializedVersion: 2
         x: 528
@@ -1614,13 +1614,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6be7fa4cf34b24a8e238e3797c0dd3
+      spriteID: 895e8c6db97c0794696b475abbf766f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_72'
+      name: Damage1_72
       rect:
         serializedVersion: 2
         x: 0
@@ -1634,13 +1634,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46609baa19ef11943b396e0f80535724
+      spriteID: 68f2d0d269ac1264581c7dcb61f7f491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_73'
+      name: Damage1_73
       rect:
         serializedVersion: 2
         x: 48
@@ -1654,13 +1654,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926fc9091350101408747d73dadb761d
+      spriteID: 1c7cddd81c6bccc4a8a736dbac4adcd7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_74'
+      name: Damage1_74
       rect:
         serializedVersion: 2
         x: 96
@@ -1674,13 +1674,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10355406fbc4d6c4c9e01ddab5edb97e
+      spriteID: 327665b68a3aace48a530098139e25f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_75'
+      name: Damage1_75
       rect:
         serializedVersion: 2
         x: 144
@@ -1694,13 +1694,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ecfa8c3157038a499022cd8a2467cc7
+      spriteID: b1a7e102d27fee044a28d951cab2c28c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_76'
+      name: Damage1_76
       rect:
         serializedVersion: 2
         x: 192
@@ -1714,13 +1714,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30e69601e8bb8e242bc25db2ce767764
+      spriteID: 17231727c9e79f14889091d43cdf2a36
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_77'
+      name: Damage1_77
       rect:
         serializedVersion: 2
         x: 240
@@ -1734,13 +1734,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d416878abfa72478954843e47c243d
+      spriteID: 763957eb74c9a0a40baf46cee296b7ec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_78'
+      name: Damage1_78
       rect:
         serializedVersion: 2
         x: 288
@@ -1754,13 +1754,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2f81bc65d6a7e4f84451ab6f8fc37a
+      spriteID: 925620a0268e90a46833be62c5ff3437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_79'
+      name: Damage1_79
       rect:
         serializedVersion: 2
         x: 336
@@ -1774,13 +1774,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67efed2da478208448d9ead18069e2f8
+      spriteID: d9ca79a6e53794e42a2c0a6622d6fec5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_80'
+      name: Damage1_80
       rect:
         serializedVersion: 2
         x: 384
@@ -1794,13 +1794,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b0b355afbdfd244bfa9036f1c7a0d3
+      spriteID: 3ffabe54eca6cb1488ef7c14b1be9a28
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_81'
+      name: Damage1_81
       rect:
         serializedVersion: 2
         x: 432
@@ -1814,13 +1814,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beb480e2fc3a4c04a92c5a3441defd09
+      spriteID: 1d4247dfbbaf8f84683166186a29e0a9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_82'
+      name: Damage1_82
       rect:
         serializedVersion: 2
         x: 480
@@ -1834,13 +1834,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91353487067a374b977b35256f1e96f
+      spriteID: 7c7dba601b870024ba6e1194247e647e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_83'
+      name: Damage1_83
       rect:
         serializedVersion: 2
         x: 528
@@ -1854,13 +1854,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: addf79151df72d943ac2b3e5b89be98d
+      spriteID: ae85cb710f6cf51439803e49ed0822e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_84'
+      name: Damage1_84
       rect:
         serializedVersion: 2
         x: 0
@@ -1874,13 +1874,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9846e9dfec35c954d9b4b70e02402560
+      spriteID: 868455f926169774db86b92cb4eb0c90
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_85'
+      name: Damage1_85
       rect:
         serializedVersion: 2
         x: 48
@@ -1894,13 +1894,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a3c4ec8fbdb2f44f8a4ac30ff36635c
+      spriteID: 3feea37069fd43648881485fb70eeaec
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_86'
+      name: Damage1_86
       rect:
         serializedVersion: 2
         x: 96
@@ -1914,13 +1914,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae883c00d75a7be44bfd9e72763fee11
+      spriteID: 084fa3f41c172e64f9433221c28b51b3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_87'
+      name: Damage1_87
       rect:
         serializedVersion: 2
         x: 144
@@ -1934,13 +1934,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ba61ff3b6e32fc4eabef264e16c3506
+      spriteID: 3205296bcd71fbd4790909af0884c8bb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_88'
+      name: Damage1_88
       rect:
         serializedVersion: 2
         x: 192
@@ -1954,13 +1954,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dadfc22cb59f4874b9a64c234587abdd
+      spriteID: 1f8982e4376804d41971de8bf8b1c268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_89'
+      name: Damage1_89
       rect:
         serializedVersion: 2
         x: 240
@@ -1974,13 +1974,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf2fdd6c1ccf224a9cd518514f3d825
+      spriteID: 188a3c0ca4933da42a55e7fed98756df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_90'
+      name: Damage1_90
       rect:
         serializedVersion: 2
         x: 288
@@ -1994,13 +1994,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa2a1fd47484874e9bbbe53dabcaf2c
+      spriteID: e9b3cc4523009874a8b5b22cf5e35498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_91'
+      name: Damage1_91
       rect:
         serializedVersion: 2
         x: 336
@@ -2014,13 +2014,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a30406e7b8e7474fbabbf680afbed83
+      spriteID: ac3efd38b184a134b88cc4b61087dfc7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_92'
+      name: Damage1_92
       rect:
         serializedVersion: 2
         x: 384
@@ -2034,13 +2034,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14f9a2a0ac408545930080639bc7ca2
+      spriteID: 4802242939e65e342a1ad0bf5d2b3013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_93'
+      name: Damage1_93
       rect:
         serializedVersion: 2
         x: 432
@@ -2054,13 +2054,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199977afa8acf4c42b49685bb812ae90
+      spriteID: 56c238ed9b0fa3148ba81058da766123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_94'
+      name: Damage1_94
       rect:
         serializedVersion: 2
         x: 480
@@ -2074,13 +2074,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f52d67f3925475148abfae79c92e2bb0
+      spriteID: aa7451c4a0a400f4fb9c5d49a8cfbcbf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!Chest_95'
+      name: Damage1_95
       rect:
         serializedVersion: 2
         x: 528
@@ -2094,7 +2094,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35613f5262976494db7f532fa3306621
+      spriteID: 8d9c982723a425b439cc356115ca5145
       vertices: []
       indices: 
       edges: []
@@ -2102,7 +2102,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a511f993edd085b499b809933f249747
+    spriteID: 9ce65b44ce555aa4794a3f5769d3dac0
     vertices: []
     indices: 
     edges: []
