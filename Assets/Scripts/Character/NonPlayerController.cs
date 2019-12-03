@@ -15,7 +15,7 @@ public class NonPlayerController : MonoBehaviour
     {
         NonPlayers = new List<GameObject>();
 
-        player = GameObject.Find("Player").GetComponent<MovePlayer>();
+        //player = GameObject.Find("Player").GetComponent<MovePlayer>();
     }
 
     void Update()

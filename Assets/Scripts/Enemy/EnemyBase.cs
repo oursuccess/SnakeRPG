@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class EnemyBase : MonoBehaviour
 {
-      void Start()
+    void Start()
     {
-        
+
     }
 
-    public void GetHurt(int harm)
+    public void GetHurt(int attack)
     {
-
     }
 
     public void Attack()

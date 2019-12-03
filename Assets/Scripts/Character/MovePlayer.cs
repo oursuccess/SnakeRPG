@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovePlayer : MoveBase
+public class MovePlayer : MoveBase, IAttack
 {
     private Vector2 direction = Vector2.zero;
 
@@ -46,6 +46,16 @@ public class MovePlayer : MoveBase
     {
         EnemyBase enemy = component as EnemyBase;
 
-        enemy.GetHurt(attribute.attack);
+        int realAttack;
+        Attack(out realAttack);
+        enemy.GetHurt(realAttack);
+    }
+
+    public void Attack(out int realAttack)
+    {
+        //播放攻击动画
+
+        //根据特性计算人物攻击
+        realAttack = attribute.attack;
     }
 }
