@@ -98,14 +98,16 @@ public abstract class Character : MonoBehaviour
     protected IEnumerator SmoothMovement(Vector3 end)
     {
         float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
+        float distance = Mathf.Max(0, sqrRemainingDistance - NonPlayerController.Instance.distance);
 
         while(sqrRemainingDistance > float.Epsilon)
         {
-            Vector3 nextPos = Vector3.MoveTowards(rigidBody2D.position, end, inverseMoveTime * Time.deltaTime);
+            Vector3 nextPos = Vector3.MoveTowards(rigidBody2D.position, end, inverseMoveTime * distance * Time.deltaTime);
             rigidBody2D.MovePosition(nextPos);
             sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-            yield return true;
+            yield return false;
         }
+        yield return true;
     }
 
     public virtual void AttemptAttack()

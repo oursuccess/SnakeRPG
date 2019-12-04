@@ -18,8 +18,9 @@ public class NonPlayer : Character
     {
         Vector2 curPosition = transform.position;
         var direction = targetPosition - curPosition;
+
         curDirection = direction;
-        bool m = AttemptMove<Enemy>(direction);
+        AttemptMove<Enemy>(direction);
     }
 
     protected override bool AttemptMove<T>(Vector2 direction)

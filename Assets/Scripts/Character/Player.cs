@@ -26,8 +26,6 @@ public class Player : Character, IAttack
 
             curDirection = direction;
             AttemptMove<Enemy>(direction * moveDistance);
-
-            StartCoroutine(NonPlayerController.Instance.Move());
         }
     }
 

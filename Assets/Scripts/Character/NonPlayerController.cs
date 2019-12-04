@@ -23,8 +23,7 @@ public class NonPlayerController : MonoBehaviour
     private Player player;
     private BoxCollider2D playerCollider;
 
-    [SerializeField]
-    private float distance;
+    public float distance;
     public List<string> activeCharacters { get; private set; }
     public List<string> inactiveCharacters { get; private set; }
     public List<string> recycledCharacters { get; private set; }
@@ -47,6 +46,11 @@ public class NonPlayerController : MonoBehaviour
 
         player = GameObject.Find("Player").GetComponent<Player>();
         playerCollider = player.gameObject.GetComponent<BoxCollider2D>();
+
+        while (true)
+        {
+            Invoke("Move", player.moveTime);
+        }
     }
 
     public void AddCharacter(GameObject character)
@@ -115,7 +119,8 @@ public class NonPlayerController : MonoBehaviour
             }
             nonPlayers[i].Move(targetPosition);
 
-            yield return true;
+            yield return null;
         }
+        yield return true;
     }
 }
