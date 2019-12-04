@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using System.Diagnostics;
+//using System.Diagnostics;
 
 public abstract class Character : MonoBehaviour
 {
@@ -79,11 +79,11 @@ public abstract class Character : MonoBehaviour
        
         Vector2 start = transform.position;
         Vector2 end = start + direction;
+        Vector2 attackRange = start + characterInfo.attributes.attackRange * direction;
 
         boxCollider.enabled = false;
-        hit = Physics2D.Linecast(start, end, EnemyLayer);
+        hit = Physics2D.Linecast(start, attackRange, EnemyLayer);
         boxCollider.enabled = true;
-
 
         if (hit.transform == null)
         {
@@ -94,12 +94,12 @@ public abstract class Character : MonoBehaviour
             {
                 StopCoroutine(moveRoutine);
 
-                StackTrace trace = new StackTrace();
+               /* StackTrace trace = new StackTrace();
                 string className = trace.GetFrame(2).GetMethod().ReflectedType.Name;
                 if(className == "Player")
                 {
                     UnityEngine.Debug.Log(moveRoutine);
-                }
+                }*/
             }
 
             moveRoutine = StartCoroutine(SmoothMovement(end, velocity));
@@ -122,11 +122,6 @@ public abstract class Character : MonoBehaviour
         yield return true;
     }
 
-    public virtual void AttemptAttack()
-    {
-
-    }
-
      public virtual void OnDead()
     {
 
@@ -134,7 +129,7 @@ public abstract class Character : MonoBehaviour
 
     protected abstract void PlayerInit();
 
-    private void PlayerInit(string str)
+    public void PlayerInit(string str)
     {
         //根据str在相关表格中查找并读取基本属性，根据调用Job和Race的相关内容
     }

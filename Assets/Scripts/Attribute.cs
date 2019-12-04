@@ -8,6 +8,7 @@ public struct Attributes
     public Attribute defense;
     public Attribute speed;
     public Attribute luck;
+    public float attackRange;
 }
 
 public struct Attribute

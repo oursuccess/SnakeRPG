@@ -38,8 +38,13 @@ public class Player : Character, IAttack
 
     protected override void OnCantMove<T>(T component)
     {
+        Debug.Log("cant move");
         Enemy enemy = component as Enemy;
 
+        if(enemy != null)
+        {
+            Attack(enemy.gameObject, characterInfo.attributes);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -54,10 +59,13 @@ public class Player : Character, IAttack
 
     protected override void PlayerInit()
     {
+        characterInfo.attributes.attack.cur = 1;
+        characterInfo.attributes.attackRange = 0.3f;
     }
 
-    void IAttack.Attack(out Attribute attribute)
+    public void Attack(GameObject target, Attributes attributes)
     {
-        throw new System.NotImplementedException();
+        Enemy enemy = target.GetComponent<Enemy>();
+        enemy.GetHurt(gameObject, attributes.attack.cur);
     }
 }

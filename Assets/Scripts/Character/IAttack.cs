@@ -4,5 +4,5 @@ using UnityEngine;
 
 interface IAttack
 {
-    void Attack(out Attribute attribute);
+    void Attack(GameObject target, Attributes attributes);
 }

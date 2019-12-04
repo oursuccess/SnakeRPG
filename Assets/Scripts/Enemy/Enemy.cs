@@ -4,17 +4,33 @@ using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
+    public struct EnemyInfo
+    {
+        public int level;
+        public int hp;
+        public int mp;
+        public Attributes attributes;
+    }
+
+    public EnemyInfo enemyInfo;
     protected virtual void Start()
     {
 
     }
 
-    public void GetHurt(int attack)
+    public virtual void GetHurt(GameObject source, int loss)
     {
+        enemyInfo.hp -= loss;
+        Debug.Log(enemyInfo.hp);
+
+        if(loss <= 0)
+        {
+            Dead();
+        }
     }
 
-    public void Attack()
+    protected virtual void Dead()
     {
-
+        Destroy(gameObject);
     }
 }
