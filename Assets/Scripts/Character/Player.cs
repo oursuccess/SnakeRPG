@@ -26,12 +26,14 @@ public class Player : Character, IAttack
 
             curDirection = direction;
             AttemptMove<Enemy>(direction * moveDistance);
+
+            StartCoroutine(NonPlayerController.Instance.Move());
         }
     }
 
-    protected override void AttemptMove<T>(Vector2 direction)
+    protected override bool AttemptMove<T>(Vector2 direction)
     {
-        base.AttemptMove<T>(direction);
+        return base.AttemptMove<T>(direction);
     }
 
     protected override void OnCantMove<T>(T component)

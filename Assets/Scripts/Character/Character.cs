@@ -4,12 +4,15 @@ using UnityEngine;
 
 public abstract class Character : MonoBehaviour
 {
+    [HideInInspector]
     protected BoxCollider2D boxCollider;
+    [HideInInspector]
     protected Rigidbody2D rigidBody2D;
 
     [SerializeField]
     private LayerMask blockingLayer;
 
+    [HideInInspector]
     public Vector2 curDirection; 
 
     public float moveTime = 1f;
@@ -46,21 +49,24 @@ public abstract class Character : MonoBehaviour
         
     }
     
-    protected virtual void AttemptMove<T>(Vector2 direction)
+    protected virtual bool AttemptMove<T>(Vector2 direction)
         where T : Component
     {
         RaycastHit2D hit;
 
         bool isMoving = TryMove(direction, out hit);
 
-        if (hit.transform == null) return;
-
-        T hitComponent = hit.transform.GetComponent<T>();
-
-        if(!isMoving && hitComponent != null)
+        if (hit.transform != null)
         {
-           OnCantMove(hitComponent);
+            T hitComponent = hit.transform.GetComponent<T>();
+
+            if (!isMoving && hitComponent != null)
+            {
+                OnCantMove(hitComponent);
+            }
         }
+
+        return isMoving;
     }
 
     protected abstract void OnCantMove<T>(T component) where T : Component;

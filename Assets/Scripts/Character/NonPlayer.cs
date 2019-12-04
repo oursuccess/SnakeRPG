@@ -6,6 +6,7 @@ public class NonPlayer : Character
 {
     private static string[] names = { "Sheria", "SnowWhite", "Link", "Shawn", "Katie", "Sherry" };
     private static int count = 0;
+
     protected override void Start()
     {
         curDirection = Vector2.zero;
@@ -15,12 +16,15 @@ public class NonPlayer : Character
 
     public void Move(Vector2 targetPosition)
     {
-        AttemptMove<Enemy>(targetPosition);
+        Vector2 curPosition = transform.position;
+        var direction = targetPosition - curPosition;
+        curDirection = direction;
+        bool m = AttemptMove<Enemy>(direction);
     }
 
-    protected override void AttemptMove<T>(Vector2 direction)
+    protected override bool AttemptMove<T>(Vector2 direction)
     {
-        base.AttemptMove<T>(direction);
+        return base.AttemptMove<T>(direction);
     }
 
     protected override void OnCantMove<T>(T component)
