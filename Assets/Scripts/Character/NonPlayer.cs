@@ -21,12 +21,12 @@ public class NonPlayer : Character
         AttemptMove<Enemy>(direction, velocity);
     }
 
-    protected override bool AttemptMove<T>(Vector2 direction, float velocity = 1)
+    protected override void AttemptMove<T>(Vector2 direction, float velocity = 1)
     {
-        return base.AttemptMove<T>(direction, velocity);
+        base.AttemptMove<T>(direction, velocity);
     }
 
-    protected override void OnCantMove<T>(T component)
+    protected override void OnFound<T>(T component)
     {
         Enemy enemy = component as Enemy;
 

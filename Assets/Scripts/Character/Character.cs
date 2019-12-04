@@ -52,68 +52,59 @@ public abstract class Character : MonoBehaviour
         
     }
     
-    protected virtual bool AttemptMove<T>(Vector2 direction, float velocity = 1)
+    protected virtual void AttemptMove<T>(Vector2 direction, float velocity = 1)
         where T : Component
     {
         RaycastHit2D hit;
 
-        bool isMoving = TryMove(direction, out hit, velocity);
+        animator.SetFloat("xDir", direction.x);
+        animator.SetFloat("yDir", direction.y);
 
-        if (hit.transform != null)
+        if (moveRoutine != null)
         {
-            T hitComponent = hit.transform.GetComponent<T>();
+            StopCoroutine(moveRoutine);
 
-            if (!isMoving && hitComponent != null)
-            {
-                OnCantMove(hitComponent);
-            }
+            /* StackTrace trace = new StackTrace();
+             string className = trace.GetFrame(2).GetMethod().ReflectedType.Name;
+             if(className == "Player")
+             {
+                 UnityEngine.Debug.Log(moveRoutine);
+             }*/
         }
 
-        return isMoving;
+        moveRoutine = StartCoroutine(SmoothMovement<T>(direction, velocity));
+
     }
 
-    protected abstract void OnCantMove<T>(T component) where T : Component;
+    protected abstract void OnFound<T>(T component) where T : Component;
 
-    private bool TryMove(Vector2 direction, out RaycastHit2D hit, float velocity = 1)
+    protected IEnumerator SmoothMovement<T>(Vector2 direction, float velocity = 1) where T : Component
     {
-       
         Vector2 start = transform.position;
-        Vector2 end = start + direction;
-        Vector2 attackRange = start + characterInfo.attributes.attackRange * direction;
+        Vector3 end = start + direction;
 
-        boxCollider.enabled = false;
-        hit = Physics2D.Linecast(start, attackRange, EnemyLayer);
-        boxCollider.enabled = true;
-
-        if (hit.transform == null)
-        {
-            animator.SetFloat("xDir", direction.x);
-            animator.SetFloat("yDir", direction.y);
-           
-            if (moveRoutine != null)
-            {
-                StopCoroutine(moveRoutine);
-
-               /* StackTrace trace = new StackTrace();
-                string className = trace.GetFrame(2).GetMethod().ReflectedType.Name;
-                if(className == "Player")
-                {
-                    UnityEngine.Debug.Log(moveRoutine);
-                }*/
-            }
-
-            moveRoutine = StartCoroutine(SmoothMovement(end, velocity));
-            return true;
-        }
-        return false;
-    }
-
-    protected IEnumerator SmoothMovement(Vector3 end, float velocity = 1)
-    {
         float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
+        bool found = false;
 
         while(sqrRemainingDistance > float.Epsilon)
         {
+            Vector2 attackRange = start + characterInfo.attributes.attackRange * direction;
+
+            boxCollider.enabled = false;
+            RaycastHit2D hit = Physics2D.Linecast(start, attackRange, EnemyLayer);
+            boxCollider.enabled = true;
+
+            if(!found && hit.transform != null)
+            {
+                T hitComponent = hit.transform.GetComponent<T>();
+
+                if (hitComponent != null)
+                {
+                    found = true;
+                    OnFound(hitComponent);
+                }
+            }
+
             Vector3 nextPos = Vector3.MoveTowards(rigidBody2D.position, end, inverseMoveTime * velocity * Time.deltaTime);
             rigidBody2D.MovePosition(nextPos);
             sqrRemainingDistance = (transform.position - end).sqrMagnitude;
