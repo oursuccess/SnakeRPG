@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class NonPlayer : Character
 {
+    private static string[] names = { "Sheria", "SnowWhite", "Link", "Shawn", "Katie", "Sherry" };
+    private static int count = 0;
     protected override void Start()
     {
+        curDirection = Vector2.zero;
+
         base.Start();
     }
 
@@ -23,6 +27,11 @@ public class NonPlayer : Character
     {
         Enemy enemy = component as Enemy;
 
-        enemy.GetHurt(attribute.attack);
+    }
+
+    protected override void PlayerInit()
+    {
+        characterInfo.name = names[count];
+        count++;
     }
 }

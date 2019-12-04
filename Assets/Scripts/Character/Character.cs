@@ -10,6 +10,8 @@ public abstract class Character : MonoBehaviour
     [SerializeField]
     private LayerMask blockingLayer;
 
+    public Vector2 curDirection; 
+
     public float moveTime = 1f;
     public float moveDistance = 1f;
     //inverseMoveTime is not just time, it's distance or v in 1 sec;
@@ -17,7 +19,7 @@ public abstract class Character : MonoBehaviour
 
     protected float lastMovePassT;
 
-    protected Attribute attribute;
+    public CharacterInfo characterInfo;
 
     protected Coroutine moveRoutine;
 
@@ -35,7 +37,7 @@ public abstract class Character : MonoBehaviour
         animator = GetComponent<Animator>();
 
         //应该是根据一个字符串从相关配置中读取
-        AttrSet();
+        PlayerInit();
     }
 
     // Update is called once per frame
@@ -110,9 +112,10 @@ public abstract class Character : MonoBehaviour
 
     }
 
-    protected virtual void AttrSet()
+    protected abstract void PlayerInit();
+
+    private void PlayerInit(string str)
     {
-
+        //根据str在相关表格中查找并读取基本属性，根据调用Job和Race的相关内容
     }
-
 }

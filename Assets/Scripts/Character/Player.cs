@@ -5,7 +5,6 @@ using UnityEngine;
 public class Player : Character, IAttack
 {
     private Vector2 direction = Vector2.zero;
-    private Vector2 curDirection;
 
     protected override void Start()
     {
@@ -39,20 +38,24 @@ public class Player : Character, IAttack
     {
         Enemy enemy = component as Enemy;
 
-        int realAttack;
-        Attack(out realAttack);
-        enemy.GetHurt(realAttack);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        NonPlayer nonPlayer = collision.gameObject.GetComponent<NonPlayer>();
+
+        if(nonPlayer != null)
+        {
+            NonPlayerController.Instance.AddCharacter(collision.gameObject);
+        }
     }
 
-    public void Attack(out int realAttack)
+    protected override void PlayerInit()
     {
-        //播放攻击动画
+    }
 
-        //根据特性计算人物攻击
-        realAttack = attribute.attack;
+    void IAttack.Attack(out Attribute attribute)
+    {
+        throw new System.NotImplementedException();
     }
 }

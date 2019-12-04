@@ -4,5 +4,5 @@ using UnityEngine;
 
 interface IAttack
 {
-    void Attack(out int realAttack);
+    void Attack(out Attribute attribute);
 }

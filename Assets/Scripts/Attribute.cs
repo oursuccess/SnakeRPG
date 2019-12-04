@@ -2,12 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public struct Attribute 
+public struct Attributes
 {
-    public int attack;
-    public int defense;
-    public int magic;
-    public int madefense;
-    public int speed;
-    public int luck;
+    public Attribute attack;
+    public Attribute defense;
+    public Attribute speed;
+    public Attribute luck;
+}
+
+public struct Attribute
+{
+    public int cur;
+    public int offset;
+    public float multi;
+    public float incChance;
+    public int incBase;
+    public int incMax;
 }
