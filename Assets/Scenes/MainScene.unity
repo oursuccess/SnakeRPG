@@ -649,7 +649,7 @@ MonoBehaviour:
     m_Bits: 2048
   curDirection: {x: 0, y: 0}
   moveTime: 1
-  moveDistance: 1
+  moveDistance: 1.5
 --- !u!212 &518286276
 SpriteRenderer:
   m_ObjectHideFlags: 0
