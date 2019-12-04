@@ -10,7 +10,7 @@ public abstract class Character : MonoBehaviour
     protected Rigidbody2D rigidBody2D;
 
     [SerializeField]
-    private LayerMask blockingLayer;
+    private LayerMask EnemyLayer;
 
     [HideInInspector]
     public Vector2 curDirection; 
@@ -20,6 +20,7 @@ public abstract class Character : MonoBehaviour
     //inverseMoveTime is not just time, it's distance or v in 1 sec;
     private float inverseMoveTime;
 
+    [HideInInspector]
     protected float lastMovePassT;
 
     public CharacterInfo characterInfo;
@@ -49,12 +50,12 @@ public abstract class Character : MonoBehaviour
         
     }
     
-    protected virtual bool AttemptMove<T>(Vector2 direction)
+    protected virtual bool AttemptMove<T>(Vector2 direction, float velocity = 1)
         where T : Component
     {
         RaycastHit2D hit;
 
-        bool isMoving = TryMove(direction, out hit);
+        bool isMoving = TryMove(direction, out hit, velocity);
 
         if (hit.transform != null)
         {
@@ -71,7 +72,7 @@ public abstract class Character : MonoBehaviour
 
     protected abstract void OnCantMove<T>(T component) where T : Component;
 
-    private bool TryMove(Vector2 direction, out RaycastHit2D hit)
+    private bool TryMove(Vector2 direction, out RaycastHit2D hit, float velocity = 1)
     {
         if(moveRoutine != null)
         {
@@ -82,27 +83,26 @@ public abstract class Character : MonoBehaviour
         Vector2 end = start + direction;
 
         boxCollider.enabled = false;
-        hit = Physics2D.Linecast(start, end, blockingLayer);
+        hit = Physics2D.Linecast(start, end, EnemyLayer);
         boxCollider.enabled = true;
 
         if(hit.transform == null)
         {
             animator.SetFloat("xDir", direction.x);
             animator.SetFloat("yDir", direction.y);
-            moveRoutine = StartCoroutine(SmoothMovement(end));
+            moveRoutine = StartCoroutine(SmoothMovement(end, velocity));
             return true;
         }
         return false;
     }
 
-    protected IEnumerator SmoothMovement(Vector3 end)
+    protected IEnumerator SmoothMovement(Vector3 end, float velocity = 1)
     {
         float sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-        float distance = Mathf.Max(0, sqrRemainingDistance - NonPlayerController.Instance.distance);
 
         while(sqrRemainingDistance > float.Epsilon)
         {
-            Vector3 nextPos = Vector3.MoveTowards(rigidBody2D.position, end, inverseMoveTime * distance * Time.deltaTime);
+            Vector3 nextPos = Vector3.MoveTowards(rigidBody2D.position, end, inverseMoveTime * velocity * Time.deltaTime);
             rigidBody2D.MovePosition(nextPos);
             sqrRemainingDistance = (transform.position - end).sqrMagnitude;
             yield return false;

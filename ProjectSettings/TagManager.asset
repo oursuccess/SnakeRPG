@@ -16,10 +16,10 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
-  - Item
-  - BlockingLayer
-  - 
+  - GroundLayer
+  - ItemLayer
+  - CharacterLayer
+  - EnemyLayer
   - 
   - 
   - 

@@ -47,10 +47,6 @@ public class NonPlayerController : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<Player>();
         playerCollider = player.gameObject.GetComponent<BoxCollider2D>();
 
-        while (true)
-        {
-            Invoke("Move", player.moveTime);
-        }
     }
 
     public void AddCharacter(GameObject character)
@@ -117,8 +113,14 @@ public class NonPlayerController : MonoBehaviour
                 var prePlayer = nonPlayers[i - 1];
                 targetPosition = new Vector2(prePlayer.transform.position.x - prePlayer.curDirection.x * distance, prePlayer.transform.position.y - prePlayer.curDirection.y * distance);
             }
-            nonPlayers[i].Move(targetPosition);
 
+            Vector2 curPosition = transform.position;
+            var direction = targetPosition - curPosition;
+            float velocity = direction.sqrMagnitude / distance;
+
+            Debug.Log(velocity);
+
+            nonPlayers[i].Move(direction, velocity);
             yield return null;
         }
         yield return true;

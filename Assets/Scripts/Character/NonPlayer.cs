@@ -14,18 +14,16 @@ public class NonPlayer : Character
         base.Start();
     }
 
-    public void Move(Vector2 targetPosition)
+    public void Move(Vector2 direction , float velocity = 1)
     {
-        Vector2 curPosition = transform.position;
-        var direction = targetPosition - curPosition;
-
+       
         curDirection = direction;
-        AttemptMove<Enemy>(direction);
+        AttemptMove<Enemy>(direction, velocity);
     }
 
-    protected override bool AttemptMove<T>(Vector2 direction)
+    protected override bool AttemptMove<T>(Vector2 direction, float velocity = 1)
     {
-        return base.AttemptMove<T>(direction);
+        return base.AttemptMove<T>(direction, velocity);
     }
 
     protected override void OnCantMove<T>(T component)
