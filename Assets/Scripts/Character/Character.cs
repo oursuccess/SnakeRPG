@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using System.Diagnostics;
+
 public abstract class Character : MonoBehaviour
 {
     [HideInInspector]
@@ -74,11 +76,7 @@ public abstract class Character : MonoBehaviour
 
     private bool TryMove(Vector2 direction, out RaycastHit2D hit, float velocity = 1)
     {
-        if(moveRoutine != null)
-        {
-            StopCoroutine(moveRoutine);
-        }
-
+       
         Vector2 start = transform.position;
         Vector2 end = start + direction;
 
@@ -86,10 +84,24 @@ public abstract class Character : MonoBehaviour
         hit = Physics2D.Linecast(start, end, EnemyLayer);
         boxCollider.enabled = true;
 
-        if(hit.transform == null)
+
+        if (hit.transform == null)
         {
             animator.SetFloat("xDir", direction.x);
             animator.SetFloat("yDir", direction.y);
+           
+            if (moveRoutine != null)
+            {
+                StopCoroutine(moveRoutine);
+
+                StackTrace trace = new StackTrace();
+                string className = trace.GetFrame(2).GetMethod().ReflectedType.Name;
+                if(className == "Player")
+                {
+                    UnityEngine.Debug.Log(moveRoutine);
+                }
+            }
+
             moveRoutine = StartCoroutine(SmoothMovement(end, velocity));
             return true;
         }
@@ -105,7 +117,7 @@ public abstract class Character : MonoBehaviour
             Vector3 nextPos = Vector3.MoveTowards(rigidBody2D.position, end, inverseMoveTime * velocity * Time.deltaTime);
             rigidBody2D.MovePosition(nextPos);
             sqrRemainingDistance = (transform.position - end).sqrMagnitude;
-            yield return false;
+            yield return null;
         }
         yield return true;
     }

@@ -31,6 +31,9 @@ public class NonPlayerController : MonoBehaviour
     [HideInInspector]
     public List<NonPlayer> nonPlayers;
 
+    private float lastTime;
+    private float moveDelay;
+
     void Start()
     {
         activeCharacters = new List<string>();
@@ -47,6 +50,8 @@ public class NonPlayerController : MonoBehaviour
         player = GameObject.Find("Player").GetComponent<Player>();
         playerCollider = player.gameObject.GetComponent<BoxCollider2D>();
 
+        lastTime = 0;
+        moveDelay = 0;
     }
 
     public void AddCharacter(GameObject character)
@@ -58,8 +63,8 @@ public class NonPlayerController : MonoBehaviour
         {
             activeCharacters.Add(name);
             var nonPlayer = character.GetComponent<NonPlayer>();
-            nonPlayer.moveTime = player.moveTime;
-            nonPlayer.moveDistance = player.moveDistance;
+            nonPlayer.moveTime = player.moveTime / 10;
+            nonPlayer.moveDistance = player.moveDistance / 10;
 
             var collider = nonPlayer.gameObject.GetComponent<BoxCollider2D>();
             Physics2D.IgnoreCollision(collider, playerCollider);
@@ -99,6 +104,34 @@ public class NonPlayerController : MonoBehaviour
         activeCharacters.Remove(name);
     }
 
+    private void Update()
+    {
+        lastTime += Time.deltaTime;
+        if(lastTime >= moveDelay  || player.direction != player.curDirection)
+        {
+            lastTime -= moveDelay;
+            for (int i = 0; i < nonPlayers.Count; ++i)
+            {
+                Vector2 targetPosition;
+                if (i == 0)
+                {
+                    targetPosition = new Vector2(player.transform.position.x - player.curDirection.x * distance, player.transform.position.y - player.curDirection.y * distance);
+                }
+                else
+                {
+                    var prePlayer = nonPlayers[i - 1];
+                    targetPosition = new Vector2(prePlayer.transform.position.x - prePlayer.curDirection.x * distance, prePlayer.transform.position.y - prePlayer.curDirection.y * distance);
+                }
+
+                Vector2 curPosition = nonPlayers[i].transform.position;
+                var direction = targetPosition - curPosition;
+                float velocity = Mathf.Min(direction.sqrMagnitude / distance, 2);
+
+                nonPlayers[i].Move(direction, velocity);
+            }
+        }
+    }
+
     public IEnumerator Move()
     {
         for (int i = 0; i < nonPlayers.Count; ++i)
@@ -114,9 +147,9 @@ public class NonPlayerController : MonoBehaviour
                 targetPosition = new Vector2(prePlayer.transform.position.x - prePlayer.curDirection.x * distance, prePlayer.transform.position.y - prePlayer.curDirection.y * distance);
             }
 
-            Vector2 curPosition = transform.position;
+            Vector2 curPosition = nonPlayers[i].transform.position;
             var direction = targetPosition - curPosition;
-            float velocity = direction.sqrMagnitude / distance;
+            float velocity = Mathf.Min(direction.sqrMagnitude / distance, 2);
 
             Debug.Log(velocity);
 

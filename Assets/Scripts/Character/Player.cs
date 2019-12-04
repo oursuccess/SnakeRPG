@@ -20,14 +20,14 @@ public class Player : Character, IAttack
 
         lastMovePassT += Time.deltaTime;
 
-        if (direction != Vector2.zero && (direction != curDirection || lastMovePassT >= moveTime))
+        if (direction != curDirection || lastMovePassT >= moveTime || moveRoutine == null)
         {
             lastMovePassT -= moveTime;
 
             curDirection = direction;
             AttemptMove<Enemy>(direction * moveDistance);
 
-            StartCoroutine(NonPlayerController.Instance.Move());
+            //StartCoroutine(NonPlayerController.Instance.Move());
         }
     }
 

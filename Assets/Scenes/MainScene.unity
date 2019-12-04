@@ -142,7 +142,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &93684585
 SpriteRenderer:
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   curDirection: {x: 0, y: 0}
   moveTime: 1
   moveDistance: 1
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   curDirection: {x: 0, y: 0}
   moveTime: 1
   moveDistance: 1
@@ -531,7 +531,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &448629162
 Animator:
@@ -967,7 +967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   curDirection: {x: 0, y: 0}
   moveTime: 1
   moveDistance: 1
@@ -1009,7 +1009,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1142968727
 GameObject:
@@ -1158,7 +1158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 2048
   curDirection: {x: 0, y: 0}
   moveTime: 1
   moveDistance: 1
@@ -1200,7 +1200,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1291351008
 Animator:
@@ -1367,7 +1367,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1398034410
 GameObject:
@@ -1515,7 +1515,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1978055610
 GameObject:
@@ -1548,7 +1548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nonPlayer: {fileID: 3368890166349734823, guid: fa63e24aa6e05334180b52f6c22d59f5,
     type: 3}
-  distance: 0.3
+  distance: 0.1
   nonPlayers: []
 --- !u!4 &1978055612
 Transform:
